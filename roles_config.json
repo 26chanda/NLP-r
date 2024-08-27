@@ -1,0 +1,24 @@
+{
+    "roles": {
+        "Data Scientist": {
+            "description": "Analyzes complex data to extract valuable insights.",
+            "tools": ["Python", "R", "TensorFlow", "PyTorch", "SQL"]
+        },
+        "Data Engineer": {
+            "description": "Designs and implements scalable data pipelines.",
+            "tools": ["Apache Spark", "Hadoop", "Kafka", "SQL", "Python"]
+        },
+        "Data Analyst": {
+            "description": "Interprets data and produces actionable reports.",
+            "tools": ["Excel", "Tableau", "SQL", "Python", "R"]
+        },
+        "Business Analyst": {
+            "description": "Bridges the gap between business objectives and technical solutions.",
+            "tools": ["Excel", "Power BI", "SQL", "Jira", "Confluence"]
+        },
+        "ML Engineer": {
+            "description": "Develops and deploys machine learning models in production environments.",
+            "tools": ["TensorFlow", "Keras", "PyTorch", "Scikit-learn", "Docker"]
+        }
+    }
+}
