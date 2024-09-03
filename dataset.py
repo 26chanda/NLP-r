@@ -25,39 +25,44 @@ departments = [
     'Corporate Communications'
 ]
 
-# Define the list of responsibilities
-responsibilities = [
-    'Customer Segmentation', 'Campaign Effectiveness', 'Lead Scoring', 
-    'Customer Churn Prediction', 'Financial Forecasting', 'Risk Management', 
-    'Cost Optimization', 'Compliance and Auditing', 'Employee Retention', 
-    'Recruitment and Talent Acquisition', 'Performance Management', 
-    'Training and Development', 'Demand Forecasting', 'Supply Chain Optimization', 
-    'Quality Control', 'Resource Allocation', 'Customer Support Automation', 
-    'Sentiment Analysis', 'Service Quality Monitoring', 'Complaint Resolution', 
-    'Feature Prioritization', 'User Behavior Analysis', 'Innovation and R&D', 
-    'Product Lifecycle Management', 'Network Security', 'Data Privacy', 
-    'System Performance', 'Incident Response', 'Innovation Management', 
-    'Product Testing and Validation', 'Market Research', 'Technology Adoption', 
-    'Market Expansion', 'Mergers and Acquisitions', 'Competitive Analysis', 
-    'Business Model Innovation', 'Regulatory Compliance', 'Contract Management', 
-    'Intellectual Property Management', 'Litigation and Dispute Resolution', 
-    'Collecting, cleaning, and ensuring the accuracy and integrity of data.', 
-    'Monitoring and improving data quality.', 
-    'Developing, maintaining, and working with databases, data warehousing, ETL processes, and data pipelines.', 
-    'Automating data collection and reporting processes.', 
-    'Ensuring data security and compliance with regulatory standards.', 
-    'Conducting A/B testing and experimental design for data-driven decision-making.', 
-    'Performing statistical analysis to identify trends and patterns in data.', 
-    'Developing and refining predictive models, forecasting trends, and guiding strategic decisions.', 
-    'Optimizing algorithms and processes for scalability and efficiency.', 
-    'Deploying models into production, monitoring performance, and iterating based on feedback.', 
-    'Implementing continuous integration and continuous deployment (CI/CD) pipelines for ML models.', 
-    'Designing interactive dashboards to communicate insights and support decision-making.', 
-    'Interpreting data results, generating reports, and presenting actionable insights to stakeholders.', 
-    'Collaborating with other departments to understand data needs and inform business decisions.', 
-    'Developing and maintaining data products or tools for internal and external use.', 
-    'Documenting data processes, methodologies, and quality improvements.'
-]
+# Define responsibilities for each role
+responsibilities_by_role = {
+    'Data Scientist': [
+        'Collecting, cleaning, and ensuring the accuracy and integrity of data.',
+        'Developing, maintaining, and working with databases, data warehousing, ETL processes, and data pipelines.',
+        'Automating data collection and reporting processes.',
+        'Conducting A/B testing and experimental design for data-driven decision-making.',
+        'Performing statistical analysis to identify trends and patterns in data.'
+    ],
+    'Data Engineer': [
+        'Designing, building, and maintaining large-scale data systems.',
+        'Developing, testing, and deploying data pipelines and architectures.',
+        'Ensuring data quality, security, and compliance with regulatory standards.',
+        'Optimizing data processing and storage systems for scalability and efficiency.',
+        'Collaborating with data scientists to develop and deploy machine learning models.'
+    ],
+    'Data Analyst': [
+        'Analyzing and interpreting complex data sets to identify trends and patterns.',
+        'Developing and maintaining databases, data warehouses, and data visualization tools.',
+        'Creating reports and dashboards to communicate insights to stakeholders.',
+        'Collaborating with business stakeholders to understand data needs and inform business decisions.',
+        'Identifying areas for process improvement and implementing changes.'
+    ],
+    'Business Analyst': [
+        'Analyzing business needs and identifying opportunities for improvement.',
+        'Developing and implementing business strategies and solutions.',
+        'Collaborating with stakeholders to gather requirements and develop solutions.',
+        'Creating business cases and cost-benefit analyses to support proposals.',
+        'Communicating insights and recommendations to stakeholders.'
+    ],
+    'ML Engineer': [
+        'Designing, developing, and deploying machine learning models and algorithms.',
+        'Collaborating with data scientists to develop and deploy models.',
+        'Ensuring model performance, scalability, and reliability.',
+        'Developing and maintaining data pipelines and architectures for ML models.',
+        'Optimizing model training and deployment processes for efficiency and accuracy.'
+    ]
+}
 
 # Function to create role descriptions
 def create_role_description(role):
@@ -116,8 +121,7 @@ def create_experience(role):
         'Business Analyst': ['5+ years in business strategy', '3+ years in financial analysis', '4+ years in business consulting'],
         'ML Engineer': ['4+ years in ML model development', '3+ years in deep learning', '5+ years in AI system deployment']
     }
-    return random.sample(experience_options[role], random.randint(1, 3))  # Select 1 to 3 experiences
-
+    return random.sample(experience_options[role], random.randint(1, 3))  
 # Function to generate multiple certifications based on role
 def create_certifications(role):
     certifications_options = {
@@ -130,8 +134,9 @@ def create_certifications(role):
     return random.sample(certifications_options[role], random.randint(1, 3))  # Select 1 to 3 certifications
 
 # Function to generate responsibilities based on role
-def create_responsibilities():
-    return random.sample(responsibilities, random.randint(3, 7))  # Select 3 to 7 responsibilities
+def create_responsibilities(role):
+    num_responsibilities = min(len(responsibilities_by_role[role]), random.randint(3, 9))
+    return random.sample(responsibilities_by_role[role], num_responsibilities)  
 
 # Generate dataset
 data = []
@@ -147,7 +152,7 @@ for _ in range(600000):
     education = "; ".join(create_education(role))  # Join multiple educational qualifications with a semicolon
     experience = "; ".join(create_experience(role))  # Join multiple experiences with a semicolon
     certifications = "; ".join(create_certifications(role))  # Join multiple certifications with a semicolon
-    responsibilities_list = "; ".join(create_responsibilities())  # Join responsibilities with a semicolon
+    responsibilities_list = "; ".join(create_responsibilities(role))  # Join responsibilities with a semicolon
     
     data.append({
         'Name': name,
@@ -169,4 +174,3 @@ df = pd.DataFrame(data)
 
 # Save to CSV
 df.to_csv('synthetic_dataset.csv', index=False)
- 
