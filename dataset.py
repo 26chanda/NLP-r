@@ -1,6 +1,5 @@
 import json
 import pandas as pd
-import numpy as np
 from faker import Faker
 import random
 
@@ -64,108 +63,146 @@ responsibilities_by_role = {
     ]
 }
 
-# Function to create role descriptions
-def create_role_description(role):
-    return roles_config['roles'][role]['description']
+# Define the mapping of projects to departments
+department_projects = {
+    'Human Resources (HR)': [
+        'Employee Retention', 'Recruitment and Talent Acquisition', 'Performance Management', 'Training and Development'
+    ],
+    'Finance': [
+        'Fraud Detection', 'Financial Forecasting', 'Risk Management', 'Cost Optimization'
+    ],
+    'Operations': [
+        'Supply Chain Optimization', 'Quality Control', 'Resource Allocation', 'Incident Response'
+    ],
+    'Sales': [
+        'Customer Segmentation', 'Campaign Effectiveness', 'Lead Scoring', 'Market Expansion'
+    ],
+    'Marketing': [
+        'Market Research', 'Competitive Analysis', 'Brand Management', 'Product Lifecycle Management'
+    ],
+    'Information Technology (IT)': [
+        'Network Security', 'Data Privacy', 'System Performance', 'Robotic Process Automation'
+    ],
+    'Customer Service': [
+        'Customer Support Automation', 'Complaint Resolution', 'Sentiment Analysis', 'Service Quality Monitoring'
+    ],
+    'Research and Development (R&D)': [
+        'Innovation and R&D', 'Product Testing and Validation', 'Technology Adoption', 'Product Lifecycle Management'
+    ],
+    'Legal': [
+        'Regulatory Compliance', 'Contract Management', 'Intellectual Property Management', 'Litigation and Dispute Resolution'
+    ],
+    'Procurement': [
+        'Supplier Relationship Management', 'Contract Negotiation', 'Cost Optimization', 'Risk Management'
+    ],
+    'Product Management': [
+        'Feature Prioritization', 'User Behavior Analysis', 'Product Lifecycle Management', 'Market Expansion'
+    ],
+    'Business Development': [
+        'Mergers and Acquisitions', 'Market Research', 'Competitive Analysis', 'Technology Adoption'
+    ],
+    'Corporate Strategy': [
+        'Business Model Innovation', 'Corporate Governance', 'Strategic Planning', 'Innovation Management'
+    ],
+    'Administration': [
+        'Facility Management', 'Office Operations', 'Supply Management', 'Vendor Coordination'
+    ],
+    'Engineering': [
+        'System Performance', 'Robotic Process Automation', 'Quality Control', 'Resource Allocation'
+    ],
+    'Compliance and Risk Management': [
+        'Regulatory Compliance', 'Risk Management', 'Incident Response', 'Data Privacy'
+    ],
+    'Health and Safety': [
+        'Workplace Safety Programs', 'Incident Response', 'Health Compliance', 'Risk Management'
+    ],
+    'Public Relations (PR)': [
+        'Brand Management', 'Crisis Communication', 'Media Relations', 'Corporate Communication'
+    ],
+    'Training and Development': [
+        'Employee Training Programs', 'Leadership Development', 'Skill Gap Analysis', 'Performance Management'
+    ],
+    'Corporate Communications': [
+        'Internal Communication Strategy', 'Public Relations Campaigns', 'Corporate Branding', 'Stakeholder Engagement'
+    ]
+}
+# Adjusted create_project function to return multiple projects
+def create_projects(department):
+    projects = department_projects[department]
+    
+    num_projects = random.randint(2, 5)
+    selected_projects = random.sample(projects, min(num_projects, len(projects)))
+    
+    return selected_projects
 
-# Function to generate project descriptions
-def create_project(role):
-    project_templates = {
-        'Data Scientist': [
-            'Developed a predictive model to forecast sales using {tool}.',
-            'Conducted sentiment analysis on customer reviews using {tool}.',
-            'Implemented a recommendation system with {tool}.'
-        ],
-        'Data Engineer': [
-            'Built a data pipeline using {tool} to process large datasets.',
-            'Designed a data warehouse architecture using {tool}.',
-            'Optimized data retrieval processes using {tool}.'
-        ],
-        'Data Analyst': [
-            'Created dashboards using {tool} to visualize sales data.',
-            'Analyzed customer segmentation with {tool}.',
-            'Generated reports on market trends using {tool}.'
-        ],
-        'Business Analyst': [
-            'Led a project to improve business processes using {tool}.',
-            'Analyzed business performance using {tool}.',
-            'Developed a business strategy using insights from {tool}.'
-        ],
-        'ML Engineer': [
-            'Deployed a deep learning model using {tool}.',
-            'Fine-tuned a neural network with {tool} for better accuracy.',
-            'Implemented real-time data processing with {tool}.'
-        ]
-    }
-    project_template = random.choice(project_templates[role])
-    tool = random.choice(roles_config['roles'][role]['tools'])
-    return project_template.format(tool=tool)
 
-# Function to generate multiple educational backgrounds based on role
-def create_education(role):
-    education_options = {
-        'Data Scientist': ['PhD in Computer Science', 'MSc in Data Science', 'BSc in Statistics'],
-        'Data Engineer': ['BSc in Computer Science', 'BSc in Information Technology', 'MSc in Data Engineering'],
-        'Data Analyst': ['BSc in Economics', 'BSc in Business Administration', 'BSc in Mathematics'],
-        'Business Analyst': ['MBA', 'BBA', 'MSc in Business Analytics'],
-        'ML Engineer': ['MSc in Machine Learning', 'BSc in Computer Science', 'BSc in Artificial Intelligence']
-    }
-    return random.sample(education_options[role], random.randint(1, 3))  # Select 1 to 3 education qualifications
+# Define a list of possible educational backgrounds
+educational_backgrounds = [
+    'Business Analytics', 'Data Analytics', 'Computer Science', 'Software Engineering', 
+    'Information Technology', 'Cybersecurity', 'Data Science', 'Artificial Intelligence',
+    'Statistical Science', 'Biostatistics', 'Supply Chain', 'Finance',
+    'Information Technology & Management', 'Bioinformatics', 'Information Systems',
+    'Biology', 'Biotechnology', 'Molecular Biology', 'Genetics', 'Microbiology',
+    'Zoology', 'Botany', 'Biochemistry', 'Environmental Science', 'Ecology',
+    'Chemistry', 'Physics', 'Astronomy', 'Accounting', 'Earth Science', 'Geology',
+    'Meteorology', 'Oceanography', 'Mathematics', 'Applied Mathematics', 'Statistics',
+    'Actuarial Science', 'Biomedical Sciences', 'Nursing', 'Health Informatics',
+    'Epidemiology', 'Medical Technology', 'Cognitive Science', 'Neuroscience',
+    'Experimental Psychology', 'Mechanical Engineering', 'Electrical Engineering',
+    'Civil Engineering', 'Chemical Engineering', 'Aerospace Engineering',
+    'Industrial Engineering', 'Materials Science and Engineering',
+    'Environmental Engineering', 'Biomedical Engineering', 'Agricultural Engineering',
+    'Nuclear Engineering', 'Petroleum Engineering', 'Mining Engineering',
+    'Systems Engineering', 'Pure Mathematics', 'Abstract Mathematics',
+    'Theoretical Mathematics', 'Computational Mathematics', 'Environmental Chemistry',
+    'Environmental Biology', 'Environmental Health', 'Robotics Engineering',
+    'Mechatronics', 'Energy Engineering', 'Sustainable Energy', 'AI Research',
+    'Machine Learning', 'Cognitive Systems', 'Genetic Engineering', 'Biotechnology',
+    'Management'
+]
 
-# Function to generate multiple experiences based on role
-def create_experience(role):
-    experience_options = {
-        'Data Scientist': ['5+ years in data science', '3+ years in machine learning', '4+ years in AI research'],
-        'Data Engineer': ['4+ years in data engineering', '3+ years in ETL processes', '5+ years in database management'],
-        'Data Analyst': ['3+ years in data analysis', '2+ years in business intelligence', '4+ years in market analysis'],
-        'Business Analyst': ['5+ years in business strategy', '3+ years in financial analysis', '4+ years in business consulting'],
-        'ML Engineer': ['4+ years in ML model development', '3+ years in deep learning', '5+ years in AI system deployment']
-    }
-    return random.sample(experience_options[role], random.randint(1, 3))  
-# Function to generate multiple certifications based on role
-def create_certifications(role):
-    certifications_options = {
-        'Data Scientist': ['Certified Data Scientist', 'TensorFlow Developer Certification', 'Microsoft Certified: Azure AI Engineer'],
-        'Data Engineer': ['Google Cloud Professional Data Engineer', 'AWS Certified Big Data', 'Microsoft Certified: Azure Data Engineer Associate'],
-        'Data Analyst': ['Google Data Analytics Certificate', 'Microsoft Certified: Data Analyst Associate', 'Tableau Desktop Specialist'],
-        'Business Analyst': ['Certified Business Analysis Professional (CBAP)', 'PMI Professional in Business Analysis (PMI-PBA)', 'Certified ScrumMaster (CSM)'],
-        'ML Engineer': ['TensorFlow Developer Certification', 'AWS Certified Machine Learning', 'Google Cloud Professional Machine Learning Engineer']
-    }
-    return random.sample(certifications_options[role], random.randint(1, 3))  # Select 1 to 3 certifications
+# Function to generate multiple educational backgrounds randomly
+def create_education():
+    return random.sample(educational_backgrounds, random.randint(1, 3))
+
+experience_ranges = {
+    '<1': '<1 year',
+    '1-3': '1-3 years',
+    '3-5': '3-5 years',
+    '5-7': '5-7 years',
+    '7-10': '7-10 years',
+    '10+': '10+ years'
+}
 
 # Function to generate responsibilities based on role
 def create_responsibilities(role):
-    num_responsibilities = min(len(responsibilities_by_role[role]), random.randint(3, 9))
-    return random.sample(responsibilities_by_role[role], num_responsibilities)  
+    num_responsibilities = min(len(responsibilities_by_role[role]), random.randint(3, 5))
+    return random.sample(responsibilities_by_role[role], num_responsibilities)
 
 # Generate dataset
 data = []
 for _ in range(600000):
+    role = random.choice(roles)
+    department = random.choice(departments)  # Randomly assign a department to the role
     name = fake.name()
     language = random.choice(languages)
     company = fake.company()
-    department = random.choice(departments)  # Select a department from the predefined list
-    role = random.choice(roles)
-    role_description = create_role_description(role)
-    project = create_project(role)
+    projects = "; ".join(create_projects(department))  # Get multiple projects for the department
     location = fake.city()
-    education = "; ".join(create_education(role))  # Join multiple educational qualifications with a semicolon
-    experience = "; ".join(create_experience(role))  # Join multiple experiences with a semicolon
-    certifications = "; ".join(create_certifications(role))  # Join multiple certifications with a semicolon
-    responsibilities_list = "; ".join(create_responsibilities(role))  # Join responsibilities with a semicolon
-    
+    education = "; ".join(create_education())  # Join multiple educational qualifications with a semicolon
+    experience = experience_ranges[random.choice(list(experience_ranges.keys()))]  # Select experience range
+    responsibilities_list = ";".join(create_responsibilities(role))
+
     data.append({
         'Name': name,
         'Language': language,
         'Company': company,
         'Department': department,
         'Role': role,
-        'Role Description': role_description,
-        'Projects': project,
+        'Projects': projects,  
         'Location': location,
         'Education': education,
         'Experience': experience,
-        'Certifications': certifications,
         'Responsibilities': responsibilities_list
     })
 
