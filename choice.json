@@ -1,0 +1,173 @@
+{
+    "questions": {
+      "q1": {
+        "question": "What is------",
+        "options": {
+          "a": {
+            "text": "ans",
+            "nextQuestion": "q2"
+          },
+          "b": {
+            "text": "B",
+            "nextQuestion": ""
+          },
+          "c": {
+            "text":"",
+            "nextQuestion": ""
+          },
+          "d": {
+            "text": "",
+            "nextQuestion": ""
+          }
+        }
+      },
+      "q2_a": {
+        "question": "What is------",
+        "options": {
+          "a": {
+            "text": "2",
+            "nextQuestion": "q3"
+          },
+          "b": {
+            "text": "",
+            "nextQuestion": ""
+          },
+          "c": {
+            "text": "",
+            "nextQuestion": ""
+          },
+          "d": {
+            "text": "",
+            "nextQuestion":"" 
+          }
+        }
+      },
+      "q2_b": {
+        "question": "What ---------?",
+        "options": {
+          "a": {
+            "text": "-",
+            "nextQuestion": ""
+          },
+          "b": {
+            "text":"" ,
+            "nextQuestion":"" 
+          },
+          "c": {
+            "text": "",
+            "nextQuestion":"" 
+          },
+          "d": {
+            "text": "",
+            "nextQuestion":"" 
+          }
+        }
+      },
+      "q2_c": {
+        "question": "",
+        "options": {
+          "a": {
+            "text":"" ,
+            "nextQuestion":"q4"
+          },
+          "b": {
+            "text": "",
+            "nextQuestion":"q3"
+          },
+          "c": {
+            "text": "",
+            "nextQuestion": "q3"
+          },
+          "d": {
+            "text": "",
+            "nextQuestion": "q3"
+          }
+        }
+      },
+      "q2_d": {
+        "question": "What ?",
+        "options": {
+          "a": {
+            "text": "",
+            "nextQuestion": "q3"
+          },
+          "b": {
+            "text": "",
+            "nextQuestion": "q3"
+          },
+          "c": {
+            "text": "",
+            "nextQuestion": "q3"
+          },
+          "d": {
+            "text": "",
+            "nextQuestion": "q3"
+          }
+        }
+      },
+      "q3": {
+        "question": "What ?",
+        "options": {
+          "a": {
+            "text": "",
+            "nextQuestion": "q4"
+          },
+          "b": {
+            "text": "",
+            "nextQuestion": "q4"
+          },
+          "c": {
+            "text": "",
+            "nextQuestion": "q4"
+          },
+          "d": {
+            "text": "",
+            "nextQuestion": "q4"
+          }
+        }
+      },
+      "q4": {
+        "question": "What ?",
+        "options": {
+          "a": {
+            "text": "",
+            "nextQuestion": "q5"
+          },
+          "b": {
+            "text": "",
+            "nextQuestion": "q5"
+          },
+          "c": {
+            "text": "",
+            "nextQuestion": "q5"
+          },
+          "d": {
+            "text": "",
+            "nextQuestion": "q5"
+          }
+        }
+      },
+      "q5": {
+        "question": "?",
+        "options": {
+          "a": {
+            "text": "",
+            "nextQuestion": null
+          },
+          "b": {
+            "text": "",
+            "nextQuestion": null
+          },
+          "c": {
+            "text": "",
+            "nextQuestion": null
+          },
+          "d": {
+            "text": "",
+            "nextQuestion": null
+          }
+        }
+      }
+    }
+  }
+  
