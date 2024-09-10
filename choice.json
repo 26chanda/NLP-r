@@ -1,173 +1,140 @@
 {
-    "questions": {
-      "q1": {
-        "question": "What is------",
-        "options": {
-          "a": {
-            "text": "ans",
-            "nextQuestion": "q2"
-          },
-          "b": {
-            "text": "B",
-            "nextQuestion": ""
-          },
-          "c": {
-            "text":"",
-            "nextQuestion": ""
-          },
-          "d": {
-            "text": "",
-            "nextQuestion": ""
-          }
-        }
-      },
-      "q2_a": {
-        "question": "What is------",
-        "options": {
-          "a": {
-            "text": "2",
-            "nextQuestion": "q3"
-          },
-          "b": {
-            "text": "",
-            "nextQuestion": ""
-          },
-          "c": {
-            "text": "",
-            "nextQuestion": ""
-          },
-          "d": {
-            "text": "",
-            "nextQuestion":"" 
-          }
-        }
-      },
-      "q2_b": {
-        "question": "What ---------?",
-        "options": {
-          "a": {
-            "text": "-",
-            "nextQuestion": ""
-          },
-          "b": {
-            "text":"" ,
-            "nextQuestion":"" 
-          },
-          "c": {
-            "text": "",
-            "nextQuestion":"" 
-          },
-          "d": {
-            "text": "",
-            "nextQuestion":"" 
-          }
-        }
-      },
-      "q2_c": {
-        "question": "",
-        "options": {
-          "a": {
-            "text":"" ,
-            "nextQuestion":"q4"
-          },
-          "b": {
-            "text": "",
-            "nextQuestion":"q3"
-          },
-          "c": {
-            "text": "",
-            "nextQuestion": "q3"
-          },
-          "d": {
-            "text": "",
-            "nextQuestion": "q3"
-          }
-        }
-      },
-      "q2_d": {
-        "question": "What ?",
-        "options": {
-          "a": {
-            "text": "",
-            "nextQuestion": "q3"
-          },
-          "b": {
-            "text": "",
-            "nextQuestion": "q3"
-          },
-          "c": {
-            "text": "",
-            "nextQuestion": "q3"
-          },
-          "d": {
-            "text": "",
-            "nextQuestion": "q3"
-          }
-        }
-      },
-      "q3": {
-        "question": "What ?",
-        "options": {
-          "a": {
-            "text": "",
-            "nextQuestion": "q4"
-          },
-          "b": {
-            "text": "",
-            "nextQuestion": "q4"
-          },
-          "c": {
-            "text": "",
-            "nextQuestion": "q4"
-          },
-          "d": {
-            "text": "",
-            "nextQuestion": "q4"
-          }
-        }
-      },
-      "q4": {
-        "question": "What ?",
-        "options": {
-          "a": {
-            "text": "",
-            "nextQuestion": "q5"
-          },
-          "b": {
-            "text": "",
-            "nextQuestion": "q5"
-          },
-          "c": {
-            "text": "",
-            "nextQuestion": "q5"
-          },
-          "d": {
-            "text": "",
-            "nextQuestion": "q5"
-          }
-        }
-      },
-      "q5": {
-        "question": "?",
-        "options": {
-          "a": {
-            "text": "",
-            "nextQuestion": null
-          },
-          "b": {
-            "text": "",
-            "nextQuestion": null
-          },
-          "c": {
-            "text": "",
-            "nextQuestion": null
-          },
-          "d": {
-            "text": "",
-            "nextQuestion": null
-          }
-        }
+  "questions": [
+    {
+      "department": "Finance",
+      "question_id": "q1",
+      "question": "In the Finance department, data analytics is key to solving complex financial challenges. Which of the following areas interests you the most, and how would you approach it using data analytics?",
+      "options": {
+        "A": {"text": "Financial Forecasting ", "nextQuestion": "q1.A"},
+        "B": {"text": "Risk Management", "nextQuestion": "q1.B"},
+        "C": {"text": "Performance Management", "nextQuestion": "q1.C"},
+        "D": {"text": "Cost Optimization", "nextQuestion": "q1.D"}
       }
+    },
+    {
+      "department": "Finance",
+      "question_id": "q1.A",
+      "question": " You’ve chosen to focus on Financial Forecasting. Your company is about to launch in a new market, and you need to project its financial future. How would you use data analytics to make these projections?",
+      "options": {
+        "A": {"text": "Explore Past Trends ", "nextQuestion": "q1.A.A"},
+        "B": {"text": " Scenario Planning", "nextQuestion": "q1.B.B"},
+        "C": {"text": "Dig into Key Drivers", "nextQuestion": "q1.C.C"},
+        "D": {"text": "Stay Updated with Dashboards", "nextQuestion": "q1.D.D"}
+      }
+    },
+    {
+      "department": "Finance",
+      "question_id": "q1.A.A",
+      "question": "You’ve analyzed past financial trends to develop a forecast. How would you refine your approach to ensure the forecast is robust and forward-looking, accounting for uncertainties and future shifts?",
+      "options": {
+        "A": {"text": "Leverage Macro-Economic Indicators", "nextQuestion": "q1.A.A.A"},
+        "B": {"text": "Perform Stress Testing ", "nextQuestion": "q1.B.B.B"},
+        "C": {"text": "Seasonal Adjustments", "nextQuestion": "q1.C.C.C"},
+        "D": {"text": "Competitor Benchmarking", "nextQuestion": "q1.D.D.D"}
+      }
+    },
+    {
+      "department": "Finance",
+      "question_id": "q1.A.B",
+      "question": "After applying scenario analysis to model different financial outcomes, how do you ensure these scenarios lead to effective decision-making and planning?",
+      "options": {
+        "A": {"text": "Contingency Plans", "nextQuestion": "q1.A.B.A"},
+        "B": {"text": "Scenario Comparison", "nextQuestion": "q1.A.B.B"},
+        "C": {"text": "Dynamic Scenario Updates", "nextQuestion": "q1.A.B.C"},
+        "D": {"text": "Scenario-Based Budgeting", "nextQuestion": "q1.A.B.D"}
+      }
+    },
+    {
+      "department": "Finance",
+      "question_id": "q1.A.C",
+      "question": "After identifying the key drivers like market size or costs, how would you refine your forecast to account for the dynamic nature of these factors over time?",
+      "options": {
+        "A": {"text": "Driver Sensitivity Analysis", "nextQuestion": "q1.A.C.A"},
+        "B": {"text": "Factor Interdependencies", "nextQuestion": "q1.A.C.B"},
+        "C": {"text": "Scenario-Based Driver Adjustments", "nextQuestion": "q1.A.C.C"},
+        "D": {"text": "Time-Weighted Averages", "nextQuestion": "q1.A.C.D"}
+      }
+    },
+    {
+    "department": "Finance",
+    "question_id": "q1.A.D",
+    "question": "After building real-time dashboards in Tableau or Power BI, how do you ensure these insights lead to actionable financial decisions?",
+    "options": {
+      "A": {"text": "Real-Time KPI Monitoring", "nextQuestion": "q1.A.D.A"},
+      "B": {"text": "Automated Alerts: ", "nextQuestion": "q1.A.D.B"},
+      "C": {"text": "Customizable Dashboards for Stakeholders", "nextQuestion": "q1.A.D.C"},
+      "D": {"text": "Forecast vs. Actual Comparison ", "nextQuestion": "q1.A.D.D"}
+      }
+    },
+    {
+      
+    "department": "Finance",
+    "question_id": "q1.B",
+    "question": "You’ve chosen to focus on Risk Management. Imagine you're tasked with protecting your company against financial risks in an unpredictable market. How would you spot potential dangers and protect the business from losses?",
+    "options": {
+      "A": {"text": "Spotting Risk Patterns", "nextQuestion": "q1.B.A"},
+      "B": {"text": "Evaluating Credit Risk ", "nextQuestion": "q1.B.B"},
+      "C": {"text": "Detecting Fraud", "nextQuestion": "q1.B.C"},
+      "D": {"text": " Prioritizing Risks", "nextQuestion": "q1.B.D"}
+      }
+    },
+    {
+      
+      "department": "Finance",
+      "question_id": "q1.B.A",
+      "question": "Now that you’ve identified risk patterns, what’s your first step in validating whether these risks are likely to materialize, and how would you prioritize them for action?",
+      "options": {
+        "A": {"text": "Validate with Statistical Testing", "nextQuestion": "q1.B.A.A"},
+        "B": {"text": " Prioritize Based on Impact", "nextQuestion": "q1.B.A.B"},
+        "C": {"text": "Investigate Key Data Sources", "nextQuestion": "q1.B.A.C"},
+        "D": {"text": "Early Warning Systems", "nextQuestion": "q1.B.A.D"}
+      }
+    },
+    {
+      "department": "Finance",
+      "question_id": "q1.B.B",
+      "question": "You’ve identified several borrowers and investments as high-risk based on your credit risk assessment. How would you turn these insights into concrete actions to protect the company from potential losses?",
+      "options": {
+        "A": {"text": "Develop Risk Categories", "nextQuestion": "q1.B.B.A"},
+        "B": {"text": "Adjust Terms Based on Risk", "nextQuestion": "q1.B.B.B"},
+        "C": {"text": "Strengthen Your Portfolio", "nextQuestion": "q1.B.B.C"},
+        "D": {"text": "Implement Predictive Monitoring Systems", "nextQuestion": "q1.B.B.D"}
+      }
+    },
+    {
+      "department": "Finance",
+      "question_id": "q1.B.C",
+      "question": "You’ve just flagged suspicious activity that could indicate fraud. With fraud tactics constantly evolving, how would you enhance your detection system to stay one step ahead of potential threats?",
+      "options": {
+        "A": {"text": "Develop Risk Categories", "nextQuestion": "q1.B.B.A"},
+        "B": {"text": "Adjust Terms Based on Risk", "nextQuestion": "q1.B.B.B"},
+        "C": {"text": "Strengthen Your Portfolio", "nextQuestion": "q1.B.B.C"},
+        "D": {"text": "Implement Predictive Monitoring Systems", "nextQuestion": "q1.B.B.D"}
+      }
+    },
+    {
+      "department": "Computer Science",
+      "question_id": "q2",
+      "question": "What is your favorite data structure?",
+      "options": {
+        "A": {"text": "Array", "nextQuestion": "q6"},
+        "B": {"text": "Linked List", "nextQuestion": "q7"},
+        "C": {"text": "Stack", "nextQuestion": "q8"},
+        "D": {"text": "Queue", "nextQuestion": "q9"}
+      }
+    },
+    {
+      "department": "Mathematics",
+      "question_id": "q10",
+      "question": "What is your favorite mathematical concept?",
+      "options": {
+        "A": {"text": "Calculus", "nextQuestion": "q11"},
+        "B": {"text": "Algebra", "nextQuestion": "q12"},
+        "C": {"text": "Geometry", "nextQuestion": "q13"},
+        "D": {"text": "Trigonometry", "nextQuestion": "q14"}
+      }
+    
     }
-  }
-  
+  ]
+    
+}
