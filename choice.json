@@ -3,12 +3,12 @@
     {
       "department": "Finance",
       "question_id": "q1",
-      "question": "In the Finance department, data analytics is key to solving complex financial challenges. Which of the following areas interests you the most, and how would you approach it using data analytics?",
+      "question": "In Finance, understanding market trends, managing risk, and driving performance are key to success. Which area would you explore to help the company make smarter moves and stay ahead of the competition?",
       "options": {
-        "A": {"text": "Financial Forecasting ", "nextQuestion": "q1.A"},
-        "B": {"text": "Risk Management", "nextQuestion": "q1.B"},
-        "C": {"text": "Performance Management", "nextQuestion": "q1.C"},
-        "D": {"text": "Cost Optimization", "nextQuestion": "q1.D"}
+        "A": {"text": "Financial :  Predicting future outcomes, like using past sales data to forecast next year’s revenue for budget planning", "nextQuestion": "q1.A"},
+        "B": {"text": "Risk Management: Applying Predictive modelling/Monte Carlo simulations to identify and mitigate financial risks, like assessing the impact of a market drop on investments and taking steps to reduce exposure.", "nextQuestion": "q1.B"},
+        "C": {"text": "Performance Management: Build dashboards to monitor financial performance metrics, identifying areas for improvement and guiding strategic decisions. ", "nextQuestion": "q1.C"},
+        "D": {"text": "Cost Optimization: Build dashboards to monitor financial performance metrics, identifying areas for improvement and guiding strategic decisions.", "nextQuestion": "q1.D"}
       }
     },
     {
@@ -16,10 +16,10 @@
       "question_id": "q1.A",
       "question": " You’ve chosen to focus on Financial Forecasting. Your company is about to launch in a new market, and you need to project its financial future. How would you use data analytics to make these projections?",
       "options": {
-        "A": {"text": "Explore Past Trends ", "nextQuestion": "q1.A.A"},
-        "B": {"text": " Scenario Planning", "nextQuestion": "q1.B.B"},
-        "C": {"text": "Dig into Key Drivers", "nextQuestion": "q1.C.C"},
-        "D": {"text": "Stay Updated with Dashboards", "nextQuestion": "q1.D.D"}
+        "A": {"text": "Explore Past Trends: Identify how your company has performed in similar situations in the past, then use that to predict what might happen next. ", "nextQuestion": "q1.A.A"},
+        "B": {"text": " Scenario Planning: Create 'What-If' scenarios by changing key factors like sales, costs, market growth in the historical data and analyze financial performance of the company.", "nextQuestion": "q1.B.B"},
+        "C": {"text": "Dig into Key Drivers: Identify how factors like market size or costs—will affect your financial success and use this info to predict future performance.", "nextQuestion": "q1.C.C"},
+        "D": {"text": "Stay Updated with Dashboards: Create and deploy live dashboard that keeps track of real-time data, so your forecast changes automatically as new information comes in.", "nextQuestion": "q1.D.D"}
       }
     },
     {
@@ -27,10 +27,10 @@
       "question_id": "q1.A.A",
       "question": "You’ve analyzed past financial trends to develop a forecast. How would you refine your approach to ensure the forecast is robust and forward-looking, accounting for uncertainties and future shifts?",
       "options": {
-        "A": {"text": "Leverage Macro-Economic Indicators", "nextQuestion": "q1.A.A.A"},
-        "B": {"text": "Perform Stress Testing ", "nextQuestion": "q1.B.B.B"},
-        "C": {"text": "Seasonal Adjustments", "nextQuestion": "q1.C.C.C"},
-        "D": {"text": "Competitor Benchmarking", "nextQuestion": "q1.D.D.D"}
+        "A": {"text": "Leverage Macro-Economic Indicators: Include factors like inflation, interest rates, and market trends to adjust your financial forecast. Analyze how these can correlate with the company’s performance to anticipate future shifts. ", "nextQuestion": "fa"},
+        "B": {"text": "Perform Stress Testing: Simulate extreme or unexpected events (like a market crash or supply chain failure) and evaluate how resilient your financial forecast is to such shocks. ", "nextQuestion": "fa"},
+        "C": {"text": "Seasonal Adjustments: Account for seasonality, trends, and sudden changes into the time-series models to account for recurring fluctuations in financial data and enhance forecast reliability.", "nextQuestion": "fa"},
+        "D": {"text": "Competitor Benchmarking: : Use public financial databases, industry reports to identify historical performance metrics of competitors. Benchmark your company’s performance against theirs in similar market conditions.", "nextQuestion": "fa"}
       }
     },
     {
@@ -38,10 +38,10 @@
       "question_id": "q1.A.B",
       "question": "After applying scenario analysis to model different financial outcomes, how do you ensure these scenarios lead to effective decision-making and planning?",
       "options": {
-        "A": {"text": "Contingency Plans", "nextQuestion": "q1.A.B.A"},
-        "B": {"text": "Scenario Comparison", "nextQuestion": "q1.A.B.B"},
-        "C": {"text": "Dynamic Scenario Updates", "nextQuestion": "q1.A.B.C"},
-        "D": {"text": "Scenario-Based Budgeting", "nextQuestion": "q1.A.B.D"}
+        "A": {"text": "Contingency Plans: Develop contingency plans based on worst-case and best-case scenarios, ensuring your business is prepared for a range of financial outcomes. ", "nextQuestion": "fa"},
+        "B": {"text": "Scenario Comparison: Use scenario comparison tools to evaluate the potential impact of each scenario on key financial metrics (e.g., profit margins, cash flow) and prioritize strategies accordingly. ", "nextQuestion": "fa"},
+        "C": {"text": "Dynamic Scenario Updates: Continuously update scenarios with the latest data and market conditions, ensuring that your plans adapt to changing circumstances in real-time.", "nextQuestion": "fa"},
+        "D": {"text": "Scenario-Based Budgeting: Use scenario analysis to create flexible budgets that can be adjusted depending on which financial outcome materializes, aligning your resources with forecasted needs", "nextQuestion": "fa"}
       }
     },
     {
@@ -49,10 +49,10 @@
       "question_id": "q1.A.C",
       "question": "After identifying the key drivers like market size or costs, how would you refine your forecast to account for the dynamic nature of these factors over time?",
       "options": {
-        "A": {"text": "Driver Sensitivity Analysis", "nextQuestion": "q1.A.C.A"},
-        "B": {"text": "Factor Interdependencies", "nextQuestion": "q1.A.C.B"},
-        "C": {"text": "Scenario-Based Driver Adjustments", "nextQuestion": "q1.A.C.C"},
-        "D": {"text": "Time-Weighted Averages", "nextQuestion": "q1.A.C.D"}
+        "A": {"text": "Driver Sensitivity Analysis: Assess how small changes in key drivers (e.g., costs, market size) impact your forecast to better understand their volatility ", "nextQuestion": "fa"},
+        "B": {"text": "Factor Interdependencies: Analyze the relationships between key drivers to understand how one factor (e.g., costs) influences another (e.g., pricing) and impacts the forecast. ", "nextQuestion": "fa"},
+        "C": {"text": "Scenario-Based Driver Adjustments: Develop multiple forecast scenarios by varying key drivers, testing how different levels of these factors affect your financial outcomes. ", "nextQuestion": "fa"},
+        "D": {"text": "Time-Weighted Averages: Use time-weighted averages to emphasize recent changes in key drivers, refining the accuracy of your forecast", "nextQuestion": "fa"}
       }
     },
     {
@@ -60,10 +60,10 @@
     "question_id": "q1.A.D",
     "question": "After building real-time dashboards in Tableau or Power BI, how do you ensure these insights lead to actionable financial decisions?",
     "options": {
-      "A": {"text": "Real-Time KPI Monitoring", "nextQuestion": "q1.A.D.A"},
-      "B": {"text": "Automated Alerts: ", "nextQuestion": "q1.A.D.B"},
-      "C": {"text": "Customizable Dashboards for Stakeholders", "nextQuestion": "q1.A.D.C"},
-      "D": {"text": "Forecast vs. Actual Comparison ", "nextQuestion": "q1.A.D.D"}
+      "A": {"text": "Real-Time KPI Monitoring: Continuously monitor key financial KPIs to detect trends early and proactively adapt strategies based on real-time performance data. ", "nextQuestion": "fa"},
+      "B": {"text": "Automated Alerts: Use automated alerts for significant deviations in financial metrics, ensuring that any unexpected changes trigger immediate action.", "nextQuestion": "fa"},
+      "C": {"text": "Customizable Dashboards for Stakeholders: Tailor dashboards for different stakeholders, ensuring that each team receives the specific insights they need for informed decision-making ", "nextQuestion": "fa"},
+      "D": {"text": "Forecast vs. Actual Comparison: Regularly compare real-time data with forecasted values, refining forecasts and strategies dynamically based on emerging discrepancies. ", "nextQuestion": "fa"}
       }
     },
     {
@@ -72,10 +72,10 @@
     "question_id": "q1.B",
     "question": "You’ve chosen to focus on Risk Management. Imagine you're tasked with protecting your company against financial risks in an unpredictable market. How would you spot potential dangers and protect the business from losses?",
     "options": {
-      "A": {"text": "Spotting Risk Patterns", "nextQuestion": "q1.B.A"},
-      "B": {"text": "Evaluating Credit Risk ", "nextQuestion": "q1.B.B"},
-      "C": {"text": "Detecting Fraud", "nextQuestion": "q1.B.C"},
-      "D": {"text": " Prioritizing Risks", "nextQuestion": "q1.B.D"}
+      "A": {"text": "Spotting Risk Patterns: Examine past trends and behavior to uncover warning signs that could signal upcoming risks, allowing for quick action ", "nextQuestion": "q1.B.A"},
+      "B": {"text": "Evaluating Credit Risk: Determine the likelihood of loans or investments becoming risky, helping you avoid potential losses by flagging risky options. ", "nextQuestion": "q1.B.B"},
+      "C": {"text": "Detecting Fraud: Monitor real-time transactions and flag anything suspicious, ensuring early detection of fraudulent activities. ", "nextQuestion": "q1.B.C"},
+      "D": {"text": " Prioritizing Risks: : Develop a scoring system to rank risks, focusing on those that could have the biggest impact on the company’s financial health. ", "nextQuestion": "q1.B.D"}
       }
     },
     {
@@ -84,10 +84,10 @@
       "question_id": "q1.B.A",
       "question": "Now that you’ve identified risk patterns, what’s your first step in validating whether these risks are likely to materialize, and how would you prioritize them for action?",
       "options": {
-        "A": {"text": "Validate with Statistical Testing", "nextQuestion": "q1.B.A.A"},
-        "B": {"text": " Prioritize Based on Impact", "nextQuestion": "q1.B.A.B"},
-        "C": {"text": "Investigate Key Data Sources", "nextQuestion": "q1.B.A.C"},
-        "D": {"text": "Early Warning Systems", "nextQuestion": "q1.B.A.D"}
+        "A": {"text": "Validate with Statistical Testing: Use statistical methods to check the significance of the patterns and ensure they aren’t just random fluctuations. ", "nextQuestion": "fa"},
+        "B": {"text": " Prioritize Based on Impact: Evaluate the potential financial or operational impact of each risk, prioritizing those with the greatest potential consequences.", "nextQuestion": "fa"},
+        "C": {"text": "Investigate Key Data Sources: Examine the quality and sources of the data behind the patterns to ensure accuracy before acting on the risks. ", "nextQuestion": "fa"},
+        "D": {"text": "Early Warning Systems: Develop specific, real-time indicators based on ML model that continuously monitor these risk patterns, allowing for early intervention if they intensify.", "nextQuestion": "fa"}
       }
     },
     {
@@ -95,10 +95,10 @@
       "question_id": "q1.B.B",
       "question": "You’ve identified several borrowers and investments as high-risk based on your credit risk assessment. How would you turn these insights into concrete actions to protect the company from potential losses?",
       "options": {
-        "A": {"text": "Develop Risk Categories", "nextQuestion": "q1.B.B.A"},
-        "B": {"text": "Adjust Terms Based on Risk", "nextQuestion": "q1.B.B.B"},
-        "C": {"text": "Strengthen Your Portfolio", "nextQuestion": "q1.B.B.C"},
-        "D": {"text": "Implement Predictive Monitoring Systems", "nextQuestion": "q1.B.B.D"}
+        "A": {"text": "Develop Risk Categories: Develop specific, real-time indicators based on ML model that continuously monitor these risk patterns, allowing for early intervention if they intensify.", "nextQuestion": "fa"},
+        "B": {"text": "Adjust Terms Based on Risk: Tailor loan terms or investment conditions (e.g., interest rates) to reflect the level of risk, ensuring higher-risk clients face more stringent terms.", "nextQuestion": "fa"},
+        "C": {"text": "Strengthen Your Portfolio: Use the credit risk insights to diversify your investments, focusing on safer options to reduce overall risk exposure.", "nextQuestion": "fa"},
+        "D": {"text": "Implement Predictive Monitoring Systems: Continuously monitor high-risk borrowers and investments using predictive models to identify when risks may escalate, triggering preemptive actions before problems arise", "nextQuestion": "fa"}
       }
     },
     {
@@ -106,35 +106,220 @@
       "question_id": "q1.B.C",
       "question": "You’ve just flagged suspicious activity that could indicate fraud. With fraud tactics constantly evolving, how would you enhance your detection system to stay one step ahead of potential threats?",
       "options": {
-        "A": {"text": "Develop Risk Categories", "nextQuestion": "q1.B.B.A"},
-        "B": {"text": "Adjust Terms Based on Risk", "nextQuestion": "q1.B.B.B"},
-        "C": {"text": "Strengthen Your Portfolio", "nextQuestion": "q1.B.B.C"},
-        "D": {"text": "Implement Predictive Monitoring Systems", "nextQuestion": "q1.B.B.D"}
+        "A": {"text": "Use ML for Pattern Recognition: Train ML models to detect subtle patterns and behaviors that might not be obvious but indicate potential fraud. ", "nextQuestion": "fa"},
+        "B": {"text": " Behavioral Analytics for Fraud Detection: Analyze user behavior and transaction patterns over time to create a baseline, then detect anomalies that deviate from normal behavior, even if they don’t match known fraud patterns.", "nextQuestion": "fa"},
+        "C": {"text": "Automated Fraud Blockers: Implement automated systems that block or flag transactions when anomalies are detected, reducing the potential for fraudulent transactions.", "nextQuestion": "fa"},
+        "D": {"text": "Collaborate with Industry Networks: Share insights with industry peers to keep your fraud detection system informed of the latest trends and schemes in the market.", "nextQuestion": "fa"}
       }
     },
     {
-      "department": "Computer Science",
-      "question_id": "q2",
-      "question": "What is your favorite data structure?",
+      "department": "Finance",
+      "question_id": "q1.B.D",
+      "question": ": You've developed a risk scoring system. How would you use this system to make high-stakes decisions when faced with conflicting risks that each threaten different aspects of the business?",
       "options": {
-        "A": {"text": "Array", "nextQuestion": "q6"},
-        "B": {"text": "Linked List", "nextQuestion": "q7"},
-        "C": {"text": "Stack", "nextQuestion": "q8"},
-        "D": {"text": "Queue", "nextQuestion": "q9"}
+        "A": {"text": ". Focus on Financial Stability: Prioritize risks that pose the greatest threat to the company’s financial liquidity and cash flow, ensuring the business can stay operational. ", "nextQuestion": "fa"},
+        "B": {"text": "Protect Brand Reputation: Weigh risks that could severely damage the company’s public image, ensuring that reputational damage doesn’t erode customer trust.", "nextQuestion": "fa"},
+        "C": {"text": "Balance Short-Term vs. Long-Term Risks: Make decisions by balancing short-term risks (e.g., revenue drops) with long-term risks (e.g., regulatory changes or market shifts) to protect both current and future business", "nextQuestion": "fa"},
+        "D": {"text": "Risk Trade-Off Analysis: Conduct a trade-off analysis between different risk types (e.g., financial vs. operational) to decide which risk poses the greatest overall threat and should be mitigated first.", "nextQuestion": "fa"}
       }
     },
     {
-      "department": "Mathematics",
-      "question_id": "q10",
-      "question": "What is your favorite mathematical concept?",
+      "department": "Finance",
+      "question_id": "q1.C",
+      "question": "You’ve built a dashboard to track key financial performance metrics, and you notice that revenue has been declining in one of the company’s product lines over the past quarter. What would be your next steps to investigate the cause and drive improvement using data analytics?",
       "options": {
-        "A": {"text": "Calculus", "nextQuestion": "q11"},
-        "B": {"text": "Algebra", "nextQuestion": "q12"},
-        "C": {"text": "Geometry", "nextQuestion": "q13"},
-        "D": {"text": "Trigonometry", "nextQuestion": "q14"}
+        "A": {"text": "Analyze Cost Trends: Investigate whether increasing costs (e.g., production, distribution) are eating into the profit margins, causing the revenue decline. ", "nextQuestion": "q1.C.A"},
+        "B": {"text": ". Review Customer Behavior: Examine customer purchasing patterns to see if there’s been a drop in demand or a shift in preferences that might explain the declining revenue.", "nextQuestion": "q1.C.B"},
+        "C": {"text": "Assess Market Competition: Compare your company’s product line performance to competitors and industry benchmarks to see if external market forces are affecting sales", "nextQuestion": "q1.C.C"},
+        "D": {"text": ". Identify Operational Bottlenecks: Look at internal processes to determine whether delays or inefficiencies in production or delivery are contributing to the revenue decline.", "nextQuestion": "q1.C.D"}
       }
-    
+    },
+    {
+      "department": "Finance",
+      "question_id": "q1.C.A",
+      "question": ": You’ve uncovered that rising costs are affecting your profit margins, but the cause isn’t immediately clear. How would you dig deeper into the data to uncover hidden cost drivers that may not be immediately apparent?",
+      "options": {
+        "A": {"text": " Investigate Seasonal Fluctuations: Look for seasonal spikes in costs that may be driving temporary increases and assess whether this is part of a recurring pattern.", "nextQuestion": "fa"},
+        "B": {"text": "Explore Vendor Dependencies: Analyze if certain vendors are raising prices more than others and determine whether your business is overly dependent on a specific supplier", "nextQuestion": "fa"},
+        "C": {"text": "Identify Waste or Inefficiency: Examine operational processes to detect areas of waste or inefficiency, such as overproduction or excessive energy use, that may be inflating costs.", "nextQuestion": "fa"},
+        "D": {"text": "Review Pricing Contracts: Check whether long-term pricing contracts with suppliers have escalator clauses that are quietly increasing costs over time without immediate visibility. ","nextQuestion": "fa"}
+      }
+    },
+    {
+      "department": "Finance",
+      "question_id": "q1.C.B",
+      "question": " You’ve identified that changes in customer purchasing patterns might be behind the revenue decline. How would you dive deeper into the data to understand what’s driving this shift in customer behavior?",
+      "options": {
+        "A": {"text": "Segment Customer Groups: Break down customers into different segments (e.g., age, location, purchase history) to see if certain groups are driving the change in demand. ", "nextQuestion": "fa"},
+        "B": {"text": "Analyze Product Preferences: Identify customers shift towards other products or services within your portfolio, indicating changes in preference or value perception.", "nextQuestion": "fa"},
+        "C": {"text": "Review Feedback and Sentiment: Explore customer feedback and reviews to see if product satisfaction has declined, influencing purchasing behavior and loyalty. ", "nextQuestion": "fa"},
+        "D": {"text": "Examine External Trends: Investigate broader market trends to determine if changes in the competitive landscape or consumer habits are influencing demand for your products", "nextQuestion": "fa"}
+      }
+    },
+    {
+      "department": "Finance",
+      "question_id": "q1.C.C",
+      "question": "You’ve noticed that competition may be affecting your product line’s revenue. How would you understand the impact of competitors on your business performance?",
+      "options": {
+        "A": {"text": "Benchmark Against Competitors: Compare your product performance with competitors in terms of pricing, features, and customer reviews to identify areas where they might be gaining an edge ", "nextQuestion": "fa"},
+        "B": {"text": " Track Market Share Over Time: Analyze changes in your market share over recent periods to see if competitors are steadily capturing a larger portion of the market. ", "nextQuestion": "fa"},
+        "C": {"text": "Monitor Competitor Promotions: Examine competitors' promotional strategies and discounts to see if aggressive pricing or marketing is drawing customers away from your product line", "nextQuestion": "fa"},
+        "D": {"text": "Analyze Regional Competition: Break down sales data by region to understand if certain areas are more affected by local competitors, indicating potential geographic challenges.", "nextQuestion": "fa"}
+      }
+    },
+    {
+      "department": "Finance",
+      "question_id": "q1.C.D",
+      "question": "You suspect that operational inefficiencies might be contributing to declining revenue. How would you use data to uncover and address potential bottlenecks in your operations?",
+      "options": {
+        "A": {"text": "Analyze Production Timelines: Investigate the time taken at each stage of production to identify delays or inefficiencies that are slowing down the overall process.", "nextQuestion": "fa"},
+        "B": {"text": "Assess Inventory Management: Review inventory turnover rates and use predictive analytics to forecast future demand, helping to avoid issues like overstocking or understocking and ensuring efficient inventory management.", "nextQuestion": "fa"},
+        "C": {"text": "Monitor Workflow Efficiency: Track the flow of tasks across departments, identifying areas where processes are slowing down or causing bottlenecks in the workflow.", "nextQuestion": "fa"},
+        "D": {"text": "Process Automation: Analyze manual tasks across operations to identify inefficiencies and explore opportunities for automating repetitive processes, improving speed and reducing errors in product delivery", "nextQuestion": "fa"}
+      }
+    },
+    {
+      "department": "Finance",
+      "question_id": "q1.D",
+      "question": "Your company’s operational costs have increased over the past year, and leadership has tasked you with identifying where inefficiencies might be driving up expenses. How would you approach this challenge using data analytics to identify areas for cost savings?",
+      "options": {
+        "A": {"text": "Compare Departmental Costs: Analyze which departments are consuming more resources than necessary and where costs can be reduced without impacting performance ", "nextQuestion": "q1.D.A"},
+        "B": {"text": ". Automate Repetitive Processes: Identify manual, repetitive tasks that could be automated, reducing labor costs and increasing efficiency while improving output quality.", "nextQuestion": "q1.D.B"},
+        "C": {"text": "Analyze Vendor Contracts: Examine vendor/supplier agreements to see if renegotiating terms or finding alternative suppliers could reduce costs on key services or products", "nextQuestion": "q1.D.C"},
+        "D": {"text": "Evaluate Resource Utilization: Look at how resources (e.g., equipment, personnel) are being used, and identify areas where underutilization or inefficiency is leading to unnecessary expenses", "nextQuestion": "q1.D.D"}
+      }
+    },
+    {
+    "department": "Finance",
+    "question_id": "q1.D.A",
+    "question": "You’ve found that certain departments are consuming more resources than others. What’s your next step to ensure you understand why these costs are higher and how they can be reduced effectively?",
+    "options": {
+      "A": {"text": "Prioritize High-ROI Projects: Use cost-benefit analysis to prioritize projects with the highest return on investment (ROI), ensuring that resources are focused on the most impactful initiatives.", "nextQuestion": "fa"},
+      "B": {"text": "Evaluate Cross-Department Collaboration: Investigate how departments collaborate on shared projects and see if inefficiencies in handoffs or communication are driving up costs unnecessarily.", "nextQuestion": "fa"},
+      "C": {"text": "Budget Reallocation: Reallocate budgets based on cost-benefit analysis results, ensuring that underperforming projects receive fewer resources while high-performing projects receive increased funding", "nextQuestion": "fa"},
+      "D": {"text": "Investigate Outsourcing Opportunities: Identify high-cost departmental tasks or processes that could be outsourced to external vendors or specialists at a lower cost while maintaining performance levels.", "nextQuestion": "fa"}
     }
+  },
+  {
+    "department": "Finance",
+    "question_id": "q1.D.B",
+    "question": "You've automated repetitive processes in key departments. How would you ensure that automation succeeds in all areas and not just in specific ones.",
+    "options": {
+      "A": {"text": ". Analyze Process Complexity: Review the complexity of each automated process to see if simpler tasks benefited more, while complex ones may need further refinement. ", "nextQuestion": "fa"},
+      "B": {"text": "Investigate Data Quality: Check the quality and accuracy of input data for automated processes. Poor data quality could be affecting the performance of certain areas.", "nextQuestion": "fa"},
+      "C": {"text": "Pre- and Post-Automation Metrics: Use performance metrics from before and after automation to identify trends, understanding which processes gained the most and why.", "nextQuestion": "fa"},
+      "D": {"text": "Optimize Human-Automation Balance: Analyze which parts of the process still rely on human intervention and determine if those tasks can be further automated or if human oversight is essential for quality control or decision-making", "nextQuestion": "fa"}
+    }
+  },
+  {
+    "department": "Finance",
+    "question_id": "q1.D.C",
+    "question": "After observing price fluctuations in vendor contracts, how would you evaluate if these changes are justified and if renegotiating could reduce costs without affecting quality?",
+    "options": {
+      "A": {"text": "Compare Vendor Performance: Analyze each vendor’s delivery times, product quality, and consistency, ensuring you’re not overpaying for underperformance.", "nextQuestion": "fa"},
+      "B": {"text": " Investigate Long-Term Trends: Plot long-term price trends to identify if certain vendors are increasing prices more frequently or significantly compared to others, signaling potential for renegotiation.", "nextQuestion": "fa"},
+      "C": {"text": "Explore Vendor Innovation Impact: Identify if vendors are offering innovative solutions/technology that could justify their higher costs, potentially leading to long-term savings", "nextQuestion": "fa"},
+      "D": {"text": "Identify Cost-Saving Opportunities: Bundle services or negotiate bulk discounts with vendors who provide multiple services/products, ensuring better pricing without sacrificing quality.", "nextQuestion": "fa"}
+    }
+  },
+  {
+  "department": "Finance",
+  "question_id": "q1.D.D",
+  "question": "You’ve identified potential inefficiencies in resource allocation. How would you address this while maintaining operational performance and avoiding new issues?",
+  "options": {
+    "A": {"text": "Analyze Resource Utilization Patterns: Examine data to find patterns of underuse or overuse across departments, forecast demand to reallocate resources correctly.", "nextQuestion": "fa"},
+    "B": {"text": "Track Utilization Trends Over Time: Monitor resource usage to spot trends, helping you understand if inefficiencies are seasonal or consistent, and adjust resource planning accordingly.", "nextQuestion": "fa"},
+    "C": {"text": "Correlate Resource Use with Performance: Analyze the relationship between resource usage and output to determine if higher resource consumption is leading to proportionate productivity or if inefficiencies are lowering returns", "nextQuestion": "fa"},
+    "D": {"text": "Spot Idle Resources for Reallocation: Analyze low-usage periods to find where idle resources can be redeployed to maximize efficiency and reduce downtime", "nextQuestion": "fa"}
+  }
+},
+{
+  "department": "Finance",
+  "question_id": "fa",
+  "question": " ",
+  "options": {
+    "A": {"text": "", "nextQuestion": "null"},
+    "B": {"text": "", "nextQuestion": "null"},
+    "C": {"text": " ", "nextQuestion": "null"},
+    "D": {"text": "", "nextQuestion": "null"}
+  }
+},
+{
+  "department": "R & D department",
+  "question_id": "q1",
+  "question": " ",
+  "options": {
+    "A": {"text": "", "nextQuestion": "q1.A"},
+    "B": {"text": "", "nextQuestion": "q1.B"},
+    "C": {"text": " ", "nextQuestion": "q1.C"},
+    "D": {"text": "", "nextQuestion": "q1.D"}
+  }
+},
+{
+  "department": "R & D department",
+  "question_id": "q1.A",
+  "question": " ",
+  "options": {
+    "A": {"text": "", "nextQuestion": "q1.A.A"},
+    "B": {"text": "", "nextQuestion": "q1.A.B"},
+    "C": {"text": " ", "nextQuestion": "q1.A.C"},
+    "D": {"text": "", "nextQuestion": "q1.A.D"}
+  }
+},
+{
+  "department": "R & D department",
+  "question_id": "q1.A",
+  "question": " ",
+  "options": {
+    "A": {"text": "", "nextQuestion": "q1.A.A"},
+    "B": {"text": "", "nextQuestion": "q1.A.B"},
+    "C": {"text": " ", "nextQuestion": "q1.A.C"},
+    "D": {"text": "", "nextQuestion": "q1.A.D"}
+  }
+},
+{
+  "department": "R & D department",
+  "question_id": "q1.B",
+  "question": " ",
+  "options": {
+    "A": {"text": "", "nextQuestion": "q1.B.A"},
+    "B": {"text": "", "nextQuestion": "q1.B.B"},
+    "C": {"text": " ", "nextQuestion": "q1.B.C"},
+    "D": {"text": "", "nextQuestion": "q1.B.D"}
+  }
+}, 
+{
+"department": "R & D department",
+"question_id": "q1.C",
+"question": " ",
+"options": {
+  "A": {"text": "", "nextQuestion": "q1.C.A"},
+  "B": {"text": "", "nextQuestion": "q1.C.B"},
+  "C": {"text": " ", "nextQuestion": "q1.C.C"},
+  "D": {"text": "", "nextQuestion": "q1.C.D"}
+}
+}, 
+{
+  "department": "R & D department",
+  "question_id": "q1.D",
+  "question": " ",
+  "options": {
+    "A": {"text": "", "nextQuestion": "q1.D.A"},
+    "B": {"text": "", "nextQuestion": "q1.D.B"},
+    "C": {"text": " ", "nextQuestion": "q1.D.C"},
+    "D": {"text": "", "nextQuestion": "q1.D.D"}
+  }
+  },
+  {
+    "department": "R & D department",
+    "question_id": "fa",
+    "question": " ",
+    "options": {
+      "A": {"text": "", "nextQuestion": "null"},
+      "B": {"text": "", "nextQuestion": "null"},
+      "C": {"text": " ", "nextQuestion": "null"},
+      "D": {"text": "", "nextQuestion": "null"}
+    }
+  }
   ]
-    
 }
