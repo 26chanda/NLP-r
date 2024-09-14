@@ -236,7 +236,7 @@
 {
   "department": "Finance",
   "question_id": "fa",
-  "question": " ",
+  "question": "What are the responsibilities that you want to find in your dream job? ",
   "options": {
     "A": {"text": "", "nextQuestion": "null"},
     "B": {"text": "", "nextQuestion": "null"},
@@ -247,73 +247,238 @@
 {
   "department": "R & D department",
   "question_id": "q1",
-  "question": " ",
+  "question": " In the Research & Development department, overcoming challenges like improving product performance, or speeding up development, is key to success. Which area excites you the most, and how would you approach making it better through insights and smart decisions? ",
   "options": {
-    "A": {"text": "", "nextQuestion": "q1.A"},
-    "B": {"text": "", "nextQuestion": "q1.B"},
-    "C": {"text": " ", "nextQuestion": "q1.C"},
-    "D": {"text": "", "nextQuestion": "q1.D"}
+    "A": {"text": " Product Testing and Validation: Evaluate product features and performance to uncover what’s working well and identify areas that need enhancement, ensuring the final product is polished and effective. ", "nextQuestion": "q1.A"},
+    "B": {"text": "Explore past product performance to uncover new opportunities for improvement, allowing you to create better and more innovative features.", "nextQuestion": "q1.B"},
+    "C": {"text": "Track a product’s progress from concept to launch, making informed choices at each stage to improve its success in the market ", "nextQuestion": "q1.C"},
+    "D": {"text": "Identify inefficiencies in existing workflows and processes, adjusting ensure smoother operations and scalability.", "nextQuestion": "q1.D"}
   }
 },
 {
   "department": "R & D department",
   "question_id": "q1.A",
-  "question": " ",
+  "question": "  You’ve identified some product features that aren’t performing as expected. How would you decide which features to prioritize for improvement while ensuring the product stays aligned with customer needs?",
   "options": {
-    "A": {"text": "", "nextQuestion": "q1.A.A"},
-    "B": {"text": "", "nextQuestion": "q1.A.B"},
-    "C": {"text": " ", "nextQuestion": "q1.A.C"},
-    "D": {"text": "", "nextQuestion": "q1.A.D"}
+    "A": {"text": "Focus on Customer Feedback: Identify key areas for improvement, then apply A/B testing to experiment with different feature adjustments and measure which changes lead to the highest user satisfaction", "nextQuestion": "q1.A.A"},
+    "B": {"text": "Analyze Feature Usage Patterns: Identify which features are used most frequently and assess whether their performance has a greater impact on overall user satisfaction", "nextQuestion": "q1.A.B"},
+    "C": {"text": "Segmented user targeting: Prioritize fixing features that are causing the most negative experiences or complaints, ensuring the product performs reliably.", "nextQuestion": "q1.A.C"},
+    "D": {"text": "Compare Against Competitors: Benchmark your product against competitors to see where their features outperform yours and focus on improvements that can give you a competitive edge.", "nextQuestion": "q1.A.D"}
   }
 },
 {
   "department": "R & D department",
-  "question_id": "q1.A",
-  "question": " ",
+  "question_id": "q1.A.A",
+  "question": "After running A/B tests based on customer feedback, you’ve found that two different feature adjustments have received similar positive responses. How would you decide which change to implement for the final product? ",
   "options": {
-    "A": {"text": "", "nextQuestion": "q1.A.A"},
-    "B": {"text": "", "nextQuestion": "q1.A.B"},
-    "C": {"text": " ", "nextQuestion": "q1.A.C"},
-    "D": {"text": "", "nextQuestion": "q1.A.D"}
+    "A": {"text": "Analyze Long-Term Impact: Evaluate how each feature adjustment could affect long-term user behavior and engagement, not just immediate satisfaction, to ensure sustainable product improvement. ", "nextQuestion": "FA"},
+    "B": {"text": "Consider Resource Efficiency: Determine which feature adjustment is more cost-effective and easier to implement, balancing impact with the resources required to make the change.", "nextQuestion": "FA"},
+    "C": {"text": "Segment User Feedback: Break down the feedback by different user segments (e.g., new vs. experienced users) to see if one adjustment benefits a key group more, ensuring you meet specific user needs. ", "nextQuestion": "FA"},
+    "D": {"text": "Test for Scalability: Assess how each adjustment would scale as more users adopt the product, ensuring that the chosen feature can handle increased usage without performance issues", "nextQuestion": "FA"}
   }
 },
 {
   "department": "R & D department",
-  "question_id": "q1.B",
-  "question": " ",
+  "question_id": "q1.A.B",
+  "question": "  You’ve discovered that one of the most frequently used features in your product is underperforming. How would you decide whether to improve this feature or remove it altogether?",
   "options": {
-    "A": {"text": "", "nextQuestion": "q1.B.A"},
-    "B": {"text": "", "nextQuestion": "q1.B.B"},
-    "C": {"text": " ", "nextQuestion": "q1.B.C"},
-    "D": {"text": "", "nextQuestion": "q1.B.D"}
+    "A": {"text": "Evaluate User Dependency: Analyze how dependent users are on this feature and whether removing it would negatively impact their overall experience and workflow.", "nextQuestion": "FA"},
+    "B": {"text": "Assess Alternative Solutions: Determine if other features or tools within the product can replace the underperforming feature, making its removal a viable option without disrupting user satisfaction", "nextQuestion": "FA"},
+    "C": {"text": " Examine Usage Trends Over Time: Track how usage of the feature has changed over time. If usage is declining, it may be a sign that users are finding alternatives, suggesting removal.", "nextQuestion": "FA"},
+    "D": {"text": "Conduct Competitor Comparison: Compare your feature to similar ones in competitor products to understand if improving the feature would give you a competitive advantage or if it's not worth the effort.", "nextQuestion": "FA"}
   }
 }, 
 {
 "department": "R & D department",
-"question_id": "q1.C",
-"question": " ",
+"question_id": "q1.A.C",
+"question": ": After segmenting feedback by different user groups, you find that new users prefer one set of features while experienced users favor another. How would you balance these conflicting preferences to improve overall product satisfaction?",
 "options": {
-  "A": {"text": "", "nextQuestion": "q1.C.A"},
-  "B": {"text": "", "nextQuestion": "q1.C.B"},
-  "C": {"text": " ", "nextQuestion": "q1.C.C"},
-  "D": {"text": "", "nextQuestion": "q1.C.D"}
+  "A": {"text": " Prioritize Key User Segments: Focus on the group that contributes the most to your business goals—whether it’s user growth (new users) or retention of loyal(experienced users).", "nextQuestion": "FA"},
+  "B": {"text": "Create Customizable Features: Develop features that can be customized based on user experience level, allowing both new and experienced users to adjust settings or functionality to fit their needs.", "nextQuestion": "FA"},
+  "C": {"text": "Implement Phased Updates: Roll out different updates for each group in phases, starting with features that improve the experience for one group, then gradually addressing the needs of the other", "nextQuestion": "FA"},
+  "D": {"text": "Find Common Ground: Identify shared needs between both groups and prioritize improvements that enhance the product experience for everyone, regardless of user experience level.", "nextQuestion": "FA"}
 }
 }, 
 {
   "department": "R & D department",
-  "question_id": "q1.D",
-  "question": " ",
+  "question_id": "q1.A.D",
+  "question": " After benchmarking your product against competitors, you’ve identified areas where their features outperform yours. How would you decide which competitor feature to prioritize for improvement in your product?",
   "options": {
-    "A": {"text": "", "nextQuestion": "q1.D.A"},
-    "B": {"text": "", "nextQuestion": "q1.D.B"},
-    "C": {"text": " ", "nextQuestion": "q1.D.C"},
-    "D": {"text": "", "nextQuestion": "q1.D.D"}
+    "A": {"text": "Analyze User Demand for Competitor Features: Investigate users interests on the competitor’s standout features and prioritize the ones that align with your users’ desires.", "nextQuestion": "FA"},
+    "B": {"text": "Focus on High-Impact Features: Identify which competitor features are driving the most user engagement or market share and prioritize those that could have the greatest positive impact on your product.", "nextQuestion": "FA"},
+    "C": {"text": " Evaluate Feasibility of Implementation: Consider the complexity and cost of implementing each competitor feature, focusing on improvements that can be introduced quickly without significant resource investment.", "nextQuestion": "FA"},
+    "D": {"text": "Balance Innovation with Catching Up: Weigh the importance of matching competitor features against the potential for creating unique innovations, ensuring you maintain competitive parity while also offering something new. ", "nextQuestion": "FA"}
   }
   },
   {
     "department": "R & D department",
-    "question_id": "fa",
-    "question": " ",
+    "question_id": "q1.B",
+    "question": "Exploring past product performance, helped you identify several opportunities for improvement. How would you decide which innovative ideas to prioritize; while ensuring they align with both user needs and business goals?",
+    "options": {
+      "A": {"text": "Test User Receptiveness: Conduct surveys to gather user feedback on the potential improvements and prioritize the ideas that solve significant user pain points", "nextQuestion": "q1.B.A"},
+      "B": {"text": "Align with Long-Term Strategy: Focus on the ideas that align with company’s long-term goals, ensuring enhancing the product also drive growth and future business opportunities.", "nextQuestion": "q1.B.B"},
+      "C": {"text": "Measure Market Potential: Evaluate the market demand for each idea by assessing trends and competitor offerings, ensuring that the chosen improvements have strong potential for market success.", "nextQuestion": "q1.B.C"},
+      "D": {"text": "tart with Low-Hanging Fruit: Prioritize improvements that can be implemented quickly and easily, delivering fast results while building momentum for more complex innovations in the future.", "nextQuestion": "q1.B.D"}
+    }
+  },
+  {
+    "department": "R & D department",
+    "question_id": "q1.B.A",
+    "question": "You’ve conducted surveys and gathered feedback on potential product improvements. The results show that users are divided on which feature to prioritize. How would you resolve this and move forward with development? ",
+    "options": {
+      "A": {"text": "Focus on User Retention: Prioritize the feature that has the highest potential to keep users engaged long-term, ensuring ongoing value for both the user and the business.", "nextQuestion": "FA"},
+      "B": {"text": "Test Prototypes with Small Groups: Develop prototypes of the top features and run small trials with select user groups to get a clearer understanding of how each improvement impacts the user experience", "nextQuestion": "FA"},
+      "C": {"text": "  Evaluate User Satisfaction Metrics: Analyze the potential impact of each feature on key user satisfaction metrics, such as ease of use, functionality, etc, to guide your decision.", "nextQuestion": "FA"},
+      "D": {"text": "Combine Feature Elements: Look for opportunities to integrate the most popular elements from each of the competing features, creating a solution that satisfies multiple user needs at once.", "nextQuestion": "FA"}
+    }
+  },
+  {
+    "department": "R & D department",
+    "question_id": "q1.B.B",
+    "question": "  You’ve identified an improvement for long term, but it requires significant resources and time. How would you ensure that this investment delivers value both in the short term and long term?",
+    "options": {
+      "A": {"text": " Break Down into Phases: Divide the improvement into smaller phases that can deliver incremental value over time, allowing the company to see benefits early while continuing development.", "nextQuestion": "FA"},
+      "B": {"text": "Set Measurable Milestones: Establish clear milestones and success metrics at each stage of the project, ensuring that progress is measurable and aligns with both immediate and long-term objectives.", "nextQuestion": "FA"},
+      "C": {"text": "Secure Cross-Departmental Buy-In: Engage key stakeholders from different departments to ensure the improvement has broad support, helping to secure resources and avoid potential roadblocks", "nextQuestion": "FA"},
+      "D": {"text": "Run a Pilot Program: Test the improvement on a smaller scale with a specific user group or segment, gathering feedback and results before committing to a full rollout. ", "nextQuestion": "FA"}
+    }
+  },
+  {
+    "department": "R & D department",
+    "question_id": "q1.B.C",
+    "question": " You’ve assessed the market demand and identified several ideas with strong potential. How would you prioritize which one to pursue first, considering both the market opportunity and your product’s competitive position?",
+    "options": {
+      "A": {"text": " Focus on Market Gaps: Prioritize the idea that fills a clear gap in the market where competitors are underperforming or absent, giving your product a distinct advantage.", "nextQuestion": "FA"},
+      "B": {"text": "Leverage Existing Strengths: Pursue the idea that builds on your product’s existing strengths, allowing you to enhance features already well-received by users and are difficult for competitors to replicate.", "nextQuestion": "FA"},
+      "C": {"text": "Evaluate Scalability: Choose the idea that can be easily scaled as demand grows, ensuring that your product can quickly adapt without straining resources. ", "nextQuestion": "FA"},
+      "D": {"text": "Consider Timing and Trends: Prioritize the idea that aligns with current market trends and user demands, ensuring you capitalize on timely opportunities before the competition does", "nextQuestion": "FA"}
+    }
+  },
+  {
+    "department": "R & D department",
+    "question_id": "q1.B.D",
+    "question": "You’ve successfully implemented several quick improvements. However, you now face the challenge of maintaining momentum. How would you decide which additional improvements to pursue next, while ensuring your team isn’t overwhelmed? ",
+    "options": {
+      "A": {"text": "Prioritize Based on Impact: Focus on the next set of improvements that provide the most value to users, ensuring that each new feature or enhancement delivers noticeable results without adding complexity.", "nextQuestion": "FA"},
+      "B": {"text": "Consolidate Learnings from Quick Wins: Use insights from the initial quick improvements to identify patterns, applying what worked well to the next round of features to maintain efficiency and impact.", "nextQuestion": "FA"},
+      "C": {"text": " Balance Short-Term and Long-Term Goals: Alternate between small, quick improvements and more substantial, longer-term projects to maintain a steady pace of development without overwhelming the team", "nextQuestion": "FA"},
+      "D": {"text": " Allocate Resources Selectively: Ensure that the team remains focused by allocating resources carefully, assigning high-priority tasks to key personnel while managing workload across the team to prevent burnout. ", "nextQuestion": "FA"}
+    }
+  },
+  {
+    "department": "R & D department",
+    "question_id": "q1.C",
+    "question": "Midway through product development, you’ve gathered data showing that some key metrics aren’t meeting expectations. How would you use this information to guide the project back on track and ensure the product’s success at launch? ",
+    "options": {
+      "A": {"text": " Identify Bottlenecks: Analyze development metrics to pinpoint bottlenecks in the workflow, allowing you to adjust processes or reallocate resources to the areas causing delays.", "nextQuestion": "q1.C.A"},
+      "B": {"text": "Predict Feature Success Based on Past Performance: Use data from similar past projects to forecast which features are likely to have the highest impact, helping you prioritize and focus on those features that will drive the most value. ", "nextQuestion": "q1.C.B"},
+      "C": {"text": "Track User Demand Data: Analyze early feedback or market data to identify which features are in highest demand, ensuring that the most valuable aspects of the product are prioritized in the development pipeline. ", "nextQuestion": "q1.C.C"},
+      "D": {"text": "Adjust Timelines Using Predictive Models: Use predictive modeling to evaluate if current development timelines are realistic based on past data and adjust deadlines to keep the project on a realistic path while still aiming for market success. ", "nextQuestion": "q1.C.D"}
+    }
+  },
+  {
+    "department": "R & D department",
+    "question_id": "q1.C.A",
+    "question": " After analyzing the data, you’ve identified bottlenecks in the development process that are causing delays. How would you decide which bottlenecks to address first to get the project back on track quickly?",
+    "options": {
+      "A": {"text": "Prioritize Based on Impact: Focus on the bottlenecks delaying the most critical features or tasks, ensuring that addressing these has the largest positive effect on the project timeline.", "nextQuestion": "FA"},
+      "B": {"text": "Address Recurring Issues: Look for patterns identify bottlenecks that appear consistently across different stages of the project, ensuring that the recurring one are resolved to prevent future delays.", "nextQuestion": "FA"},
+      "C": {"text": " Collaborate with Teams: Work closely with the teams experiencing the most delays to understand their pain points and collaboratively find solutions that will speed up their work.", "nextQuestion": "FA"},
+      "D": {"text": "Measure Resource Allocation Efficiency: Assess whether certain teams or tasks are under-resourced and reallocate resources to address the bottlenecks most effectively", "nextQuestion": "FA"}
+    }
+  },
+  {
+    "department": "R & D department",
+    "question_id": "q1.C.B",
+    "question": " You’ve used past project data to predict which features will have the greatest impact. How would you ensure that these predictions lead to decisions that maximize the product’s value at launch?",
+    "options": {
+      "A": {"text": "Validate Predictions: Cross-check predictions with real-time data gathered from ongoing development or early user feedback to confirm that the projected high-impact features still align with current trends.", "nextQuestion": "FA"},
+      "B": {"text": "Prioritize Features: Focus on the features that both past data and current market trends indicate are most likely to drive user engagement and sales at launch.", "nextQuestion": "FA"},
+      "C": {"text": "  Test Assumptions: Develop prototypes of the predicted high-impact features and run small-scale tests with users to validate their potential before committing fully to development.", "nextQuestion": "FA"},
+      "D": {"text": " Adjust Predictions: Continuously update feature impact predictions by feeding new data from the development process into your models, ensuring flexibility and responsiveness to real-time changes.", "nextQuestion": "FA"}
+    }
+  },
+  {
+    "department": "R & D department",
+    "question_id": "q1.C.C",
+    "question": "You’ve identified the features in highest demand. How would you ensure that the chosen features align with user expectations while maintaining the overall integrity of the product? ",
+    "options": {
+      "A": {"text": "Balance Feature Demand with Product Vision: Ensure the most requested features align with the product’s long-term goals, avoiding feature overload that could dilute the core purpose of the product.", "nextQuestion": "FA"},
+      "B": {"text": "Use Data to Refine Feature Scope: Analyze the feedback more deeply to understand the specific aspects of each feature that users value most, refining the scope of these features to focus on what matters most to them. ", "nextQuestion": "FA"},
+      "C": {"text": "Prioritize Features: Focus on features that not only have high demand but are likely to significantly enhance user interaction and contribute to long-term retention. ", "nextQuestion": "FA"},
+      "D": {"text": "Validate Demand with Real-World Testing: Conduct limited trials or beta releases for the most in-demand features to gather real-world user data, ensuring these features meet expectations before full-scale rollout. ", "nextQuestion": "FA"}
+    }
+  },
+  {
+    "department": "R & D department",
+    "question_id": "q1.C.D",
+    "question": " You’ve used predictive models to adjust project timelines based on past data. How would you ensure that these adjustments are valid and don’t sacrifice quality or miss important milestones?",
+    "options": {
+      "A": {"text": "Set Quality Gates for Each Stage: Implement quality checks at critical milestones to ensure that despite adjusted timelines, each phase of the project maintains high standards.", "nextQuestion": "FA"},
+      "B": {"text": "Continuously Monitor Predictions: Regularly update the models with new data throughout the project to ensure timeline adjustments remain realistic and responsive to any changes in progress.", "nextQuestion": "FA"},
+      "C": {"text": "Balance Speed and Complexity: Prioritize simpler, high-impact features that can be delivered on time, while adjusting timelines for complex features without sacrificing quality. ", "nextQuestion": "FA"},
+      "D": {"text": "Get Team Input on Adjustments: Collaborate closely with your team to ensure that timeline adjustments are feasible and won’t lead to rushed development or overlooked details, preserving overall quality.", "nextQuestion": "FA"}
+    }
+  },
+  {
+    "department": "R & D department",
+    "question_id": "q1.D",
+    "question": " After identifying the processes that frequently cause bottlenecks, you realize that several of them are interdependent. How would you approach resolving these interconnected bottlenecks to ensure minimal disruption to the overall workflow?",
+    "options": {
+      "A": {"text": " Use Data to Identify the Root Cause: Analyze workflow data to identify the primary source of the biggest bottleneck. By addressing this root cause, you can evaluate whether resolving it improves other related processes.", "nextQuestion": "q1.D.A"},
+      "B": {"text": "Analyze Process Efficiency Metrics: Use efficiency metrics, such as task completion times and resource usage, to prioritize which process improvements will have the highest overall impact on reducing bottlenecks.", "nextQuestion": "q1.D.B"},
+      "C": {"text": " Measure the Impact of Quick Fixes: Test temporary adjustments to the bottlenecked processes, then measure their immediate impact using real-time data to decide whether to implement permanent fixes.", "nextQuestion": "q1.D.C"},
+      "D": {"text": "Simulate Process Changes with Predictive Analysis: Apply predictive models to simulate how changes in one process will affect the others, allowing you to test various solutions before making permanent adjustments. ", "nextQuestion": "q1.D.D"}
+    }
+  },
+  {
+    "department": "R & D department",
+    "question_id": "q1.D.A",
+    "question": "After using performance monitoring tools to track system load and efficiency, how do you ensure that the data leads to scalable process improvements? ",
+    "options": {
+      "A": {"text": "Automated Performance Alerts: Set up automated alerts for key metrics like system load and response times, allowing for immediate action when thresholds are exceeded.", "nextQuestion": "FA"},
+      "B": {"text": "Bottleneck Identification: Use historical and real-time data to pinpoint performance bottlenecks in the system, ensuring that scaling decisions target areas of inefficiency.", "nextQuestion": "FA"},
+      "C": {"text": " Resource Allocation Optimization: Leverage data from monitoring tools to optimize resource allocation, ensuring that system resources are used efficiently as processes scale", "nextQuestion": "FA"},
+      "D": {"text": "Predictive Capacity Planning: Forecast future system demands, ensuring that infrastructure and processes scale proactively to meet growing needs.", "nextQuestion": "FA"}
+    }
+  },
+  {
+    "department": "R & D department",
+    "question_id": "q1.D.B",
+    "question": " After identifying processes that are consuming the most resources, your team is concerned that reducing resources may lower output quality. How would you approach balancing resource cuts with maintaining operational performance?",
+    "options": {
+      "A": {"text": "Focus on Resource Efficiency: Reevaluate how resources are being used within the most resource-heavy processes and identify ways to improve efficiency, such as streamlining tasks or reducing redundancies.", "nextQuestion": "FA"},
+      "B": {"text": "Shift Resources to Critical Areas: Prioritize redistributing resources from less crucial tasks to those that directly impact product quality or performance, ensuring critical areas remain fully supported.", "nextQuestion": "FA"},
+      "C": {"text": "Optimize Workload Distribution: Balance the workload more evenly across processes to prevent overuse of resources in one area while underutilizing them elsewhere, improving overall efficiency.  ", "nextQuestion": "FA"},
+      "D": {"text": "Introduce Gradual Adjustments: Implement small, gradual reductions in resource allocation to assess how performance is affected, allowing for course corrections before committing to larger changes.", "nextQuestion": "FA"}
+    }
+  },
+  {
+    "department": "R & D department",
+    "question_id": "q1.D.C",
+    "question": "You’ve implemented quick fixes. They delivered immediate improvements, but you’re unsure if they’ll scale effectively as the company grows. How would you determine whether to make these quick fixes permanent or redesign the processes for long-term scalability? ",
+    "options": {
+      "A": {"text": "Test the Fixes Under Increased Workload: Simulate future growth scenarios by increasing workload and monitoring how the quick fixes hold up under pressure, helping you decide whether the changes can scale effectively.", "nextQuestion": "FA"},
+      "B": {"text": "Evaluate Process Flexibility: Assess whether the quick fixes can be easily adapted to handle new challenges or demands as the company scales, ensuring they won’t become a barrier to future growth.", "nextQuestion": "FA"},
+      "C": {"text": " Compare Efficiency Gains Over Time: Track how the improvements perform over time, ensuring that the quick fixes continue delivering value as processes evolve and don’t degrade under larger operations", "nextQuestion": "FA"},
+      "D": {"text": "Engage Stakeholders for Input: Gather feedback from different departments or teams affected by the fixes, determining whether the changes are beneficial in the long run or if more robust solutions are required for scalability", "nextQuestion": "FA"}
+    }
+  },
+  {
+    "department": "R & D department",
+    "question_id": "q1.D.D",
+    "question": "  Your simulations show that some changes improve certain processes but slow down others. How would you choose the best solution to maximize overall efficiency?",
+    "options": {
+      "A": {"text": "Prioritize the Most Critical Processes: Implement changes that optimize the most essential processes, ensuring that the core areas of the business maintain their performance while addressing other areas later.", "nextQuestion": "FA"},
+      "B": {"text": "Use Iterative Testing: Apply an iterative approach by testing solutions in small, controlled phases to see how they impact real-world performance, adjusting based on results before scaling fully. ", "nextQuestion": "FA"},
+      "C": {"text": " Balance Short-Term and Long-Term Gains: Choose solution that provides both immediate improvements in certain processes and lays the groundwork for long-term scalability across all areas. ", "nextQuestion": "FA"},
+      "D": {"text": "Evaluate Interdependencies: Analyze how tightly connected the processes are. If some are less interdependent, apply changes where they will have minimal negative impact on other areas", "nextQuestion": "FA"}
+    }
+  },
+  {
+    "department": "R & D department",
+    "question_id": "FA",
+    "question": "What are the responsibilities that you want to find in your dream job? ",
     "options": {
       "A": {"text": "", "nextQuestion": "null"},
       "B": {"text": "", "nextQuestion": "null"},
@@ -321,5 +486,6 @@
       "D": {"text": "", "nextQuestion": "null"}
     }
   }
+}
   ]
 }
