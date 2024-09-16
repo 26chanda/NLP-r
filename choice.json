@@ -485,7 +485,493 @@
       "C": {"text": " ", "nextQuestion": "null"},
       "D": {"text": "", "nextQuestion": "null"}
     }
-  }
-}
+  },
+  {
+    "department": "HR",
+    "question_id": "q1",
+    "question": "In the HR department, overcoming workforce challenges is essential to maintaining a strong and motivated team. Which of the following areas do you see yourself working in? ",
+    "options": {
+      "A": {"text": "Employee Retention: Understand why employees leave and create strategies to keep top talent engaged, reducing turnover and improving retention.", "nextQuestion": "q1.A"},
+      "B": {"text": "Understanding Workforce Sentiment: Analyze employee feedback to gauge how they feel about their work environment, helping you boost satisfaction and engagement.", "nextQuestion": "q1.B"},
+      "C": {"text": " Optimizing Resource Allocation: Ensure that staffing is balanced across departments, improving efficiency and preventing workload imbalances.", "nextQuestion": "q1.C"},
+      "D": {"text": "Ensuring Data Privacy: Protect sensitive employee information and ensure compliance with privacy regulations, building trust within the workplace.", "nextQuestion": "q1.D"}
+    }
+  },
+  {
+    "department": "HR",
+    "question_id": "q1.A",
+    "question": "  You’ve collected employee turnover data and identified certain patterns, such as higher turnover in specific departments or after certain milestones. What would be your first step in investigating the reasons behind these patterns?",
+    "options": {
+      "A": {"text": " Analyze Exit Interview Data: identify common reasons employees are leaving, helping to uncover specific factors contributing to turnover.", "nextQuestion": "q1.A.A"},
+      "B": {"text": "Segment Employees by Key Characteristics: Group employees by factors like department, tenure, or job role to pinpoint which segments have the highest turnover rates and focus your investigation there", "nextQuestion": "q1.A.B"},
+      "C": {"text": "Compare Retention Rates Over Time: Analyze different time periods to see if certain changes in company policies or culture have impacted turnover rates. ", "nextQuestion": "q1.A.C"},
+      "D": {"text": "Survey Current Employees: Gather insights on employee’s job satisfaction, helping to identify potential issues that could lead to future turnover.", "nextQuestion": "q1.A.D"}
+    }
+  },
+  {
+    "department": "HR",
+    "question_id": "q1.A.A",
+    "question": "You’ve identified key reasons why employees are leaving, such as lack of career progression and work-life balance issues. How would you use this information to predict which employees might be at risk of leaving and take proactive steps to keep them engaged? ",
+    "options": {
+      "A": {"text": "Pinpoint Common Career Stages: Identify common career stages, like when employees are nearing promotion, milestone, anniversaries and offer targeted support to help them see long-term growth within the company. ", "nextQuestion": "FI"},
+      "B": {"text": "Monitor Early Warning Signs: Track changes in behavior—like declines in engagement or performance—that might signal when an employee is becoming disengaged, giving you a chance to intervene early.", "nextQuestion": "FI"},
+      "C": {"text": " Personalize Retention Strategies: Develop tailored retention programs based on patterns found in exit data, ensuring that your solutions, like career development or flexible work, match the specific needs of different groups.", "nextQuestion": "FI"},
+      "D": {"text": "Build Ongoing Feedback Mechanisms: Set up continuous feedback channels for sharing concerns regularly, giving you real-time insights to address emerging issues before they lead to resignations.", "nextQuestion": "FI"}
+    }
+  },
+  {
+    "department": "HR",
+    "question_id": "q1.A.B",
+    "question": " You’ve identified certain groups with higher turnover rates after segmenting employees based on factors like department and tenure. How would you address the unique challenges these groups face to improve retention?",
+    "options": {
+      "A": {"text": " Department Solutions: Focus on departments with high turnover by offering targeted support like training or career growth opportunities. ", "nextQuestion": "FI"},
+      "B": {"text": "Tenure-Specific Programs: Address turnover during critical employment stages( e.g., first year employee or mid-career staff) by introducing tailored initiatives, such as better onboarding or leadership paths.", "nextQuestion": "FI"},
+      "C": {"text": " Tailored Benefits: Adjust benefits and flexible work options to fit the needs of different job roles or employee segments. ", "nextQuestion": "FI"},
+      "D": {"text": "Support High-Potential Employees: Identify high-potential employees within these segments and offer them additional growth opportunities to boost retention.", "nextQuestion": "FI"}
+    }
+  },
+  {
+    "department": "HR",
+    "question_id": "q1.A.C",
+    "question": "You’ve noticed changes in retention rates over different time periods. How would you pinpoint which company policies or cultural shifts have impacted these trends?",
+    "options": {
+      "A": {"text": " Focus on Major Policy Changes: Review major policy shifts, like new benefits or remote work options, to see how they influenced employee retention. ", "nextQuestion": "FI"},
+      "B": {"text": "Analyze Cultural Initiatives: Examine key cultural initiatives, such as diversity programs, to determine their effect on turnover rates.", "nextQuestion": "FI"},
+      "C": {"text": " Compare Pre- and Post-Change Data: Analyze retention before and after policy changes to spot any significant shifts in turnover patterns.", "nextQuestion": "FI"},
+      "D": {"text": "Track Employee Feedback Trends: Look at historical feedback from surveys to identify how shifts in employee sentiment align with changes in retention.", "nextQuestion": "FI"}
+    }
+  },
+  {
+    "department": "HR",
+    "question_id": "q1.A.D",
+    "question": " You’ve gathered employee satisfaction survey results. How would you turn this feedback into actionable steps that improve retention and keep your top talent engaged? ",
+    "options": {
+      "A": {"text": " Prioritize Most Pressing Issues: Identify the most critical concerns from the surveys and address them first to show employees their voices are being heard. ", "nextQuestion": "FI"},
+      "B": {"text": "Tailor Solutions to High-Risk Teams: Focus on teams or departments that have the highest turnover risk, creating specific retention strategies based on their feedback.", "nextQuestion": "FI"},
+      "C": {"text": " Implement Visible Quick Wins: Start with simple improvements that have a clear impact, like flexible working hours or better communication, to build trust and momentum.", "nextQuestion": "FI"},
+      "D": {"text": "Create Long-Term Engagement Plans: Use the survey insights to design long-term engagement programs, such as career development paths or wellness initiatives, to improve satisfaction over time.", "nextQuestion": "FI"}
+    }
+  },
+  {
+    "department": "HR",
+    "question_id": "q1.B",
+    "question": "You’re noticing disengagement and low morale in parts of your workforce, but the root cause is unclear. How would you collect employee feedback in a way that allows you to uncover trends and patterns to better understand employee sentiment?",
+    "options": {
+      "A": {"text": "Segment Feedback Collection: Collect feedback from specific groups, such as teams or tenure levels, to ensure data can be easily grouped and compared later for meaningful insights.", "nextQuestion": "q1.B.A"},
+      "B": {"text": "Focus on Key Events: Gather feedback at specific milestones in the employee lifecycle, allowing you to track how sentiment changes over time and across different career stages.", "nextQuestion": "q1.B.B"},
+      "C": {"text": "Continuous Pulse Surveys: Implement short, frequent surveys to capture real-time shifts in employee sentiment, enabling you to spot trends and act before small issues escalate.", "nextQuestion": "q1.B.C"},
+      "D": {"text": "Standardize Feedback Formats: Use consistent questions across different departments or roles, ensuring the data you gather is structured and comparable for future analysis.", "nextQuestion": "q1.B.D"}
+    }
+  },
+  
+  {
+    "department": "HR",
+    "question_id": "q1.B.A",
+    "question": "You’ve collected feedback from various employee segments, and patterns are starting to emerge showing that certain teams or tenure groups are more disengaged. How would you analyze these patterns to decide on targeted actions that improve retention and satisfaction?",
+    "options": {
+      "A": {"text": " Compare Satisfaction Across Groups: Identify the least satisfied group and develop tailored initiatives like career growth programs or work-life balance improvements to address the root causes of their dissatisfaction. ", "nextQuestion": "FI"},
+      "B": {"text": "Identify Outliers: For groups showing unusually high or low engagement, investigate further and apply best practices from high-performing teams, or implement focused support where engagement is low.", "nextQuestion": "FI"},
+      "C": {"text": " Correlate Dissatisfaction with Business Impact: Assess how dissatisfaction in specific segments might be affecting key business metrics, such as productivity or turnover, and use this to guide where to focus retention efforts", "nextQuestion": "FI"},
+      "D": {"text": "Create Targeted Solutions for Specific Groups: Use insights to design specific initiatives, such as mentorship programs for junior employees or flexible hours for mid-career staff, ensuring each group’s top concerns are addressed.", "nextQuestion": "FI"}
+    }
+  },
+  {
+    "department": "HR",
+    "question_id": "q1.B.B",
+    "question": "You’ve collected feedback at key milestones, such as promotions or after major projects, and noticed shifts in employee sentiment. How would you use this information to make strategic decisions that improve engagement at critical stages?",
+    "options": {
+      "A": {"text": "Post-Promotion Support: If engagement drops after promotions, introduce leadership coaching or mentorship to help employees adjust to new responsibilities.", "nextQuestion": "FI"},
+      "B": {"text": "Project Recovery Strategies: After major projects, offer recognition or downtime to re-energize employees and prevent burnout.", "nextQuestion": "FI"},
+      "C": {"text": "Onboarding Enhancements: If new hires report low satisfaction early on, improve the onboarding process with clear goals and early-stage support. ", "nextQuestion": "FI"},
+      "D": {"text": "Mid-Career Growth Opportunities: If engagement decreases at long-term milestones, offer development programs or new challenges to motivate experienced employees.", "nextQuestion": "FI"}
+    }
+  },
+  {
+    "department": "HR",
+    "question_id": "q1.B.C",
+    "question": "You’ve implemented pulse surveys to track real-time shifts in employee sentiment. How would you use the ongoing feedback to drive meaningful, long-term improvements in engagement?",
+    "options": {
+      "A": {"text": "Identify Immediate Trends: Spot quick dips in satisfaction and take swift actions, like improving communication or adjusting workloads to resolve concerns before they escalate. ", "nextQuestion": "FI"},
+      "B": {"text": "Monitor Sentiment Over Time: Track recurring patterns in the surveys to identify long-term issues and design lasting solutions, such as revisiting company policies or addressing team dynamics.", "nextQuestion": "FI"},
+      "C": {"text": "Tailor Responses to Specific Groups: Use the data to address unique challenges different departments or roles face, ensuring solutions are customized to meet their specific needs", "nextQuestion": "FI"},
+      "D": {"text": "Keep Employees Engaged in the Process: Share survey results with employees and involve them in creating solutions, fostering transparency and shared ownership of improvements", "nextQuestion": "FI"}
+    }
+  },
+  {
+    "department": "HR",
+    "question_id": "q1.B.D",
+    "question": " You’ve standardized feedback questions across departments, ensuring structured data collection. How would you use this consistent data to make informed decisions that improve engagement and retention?",
+    "options": {
+      "A": {"text": "Compare Performance Across Teams: Use the standardized data to identify which teams are excelling or struggling in terms of engagement and address specific challenges or share best practices.", "nextQuestion": "FI"},
+      "B": {"text": "Spot Trends Across the Organization: Analyze the data to uncover company-wide issues, like communication gaps or workload imbalances, and prioritize solutions with the broadest impact.", "nextQuestion": "FI"},
+      "C": {"text": "Measure Progress Over Time: Track how engagement and satisfaction evolve with each survey cycle, ensuring that your strategies are driving continuous improvement.", "nextQuestion": "FI"},
+      "D": {"text": "Ensure Fair Benchmarking: Compare feedback across different departments or roles to ensure that solutions are equitable and address concerns specific to each group.", "nextQuestion": "FI"}
+    }
+  },
+  {
+    "department": "HR",
+    "question_id": "q1.C",
+    "question": " You’ve identified workload imbalances across departments, with some teams overburdened while others are underutilized. How would you approach diagnosing this issue, ensuring you understand what’s causing the inefficiencies?",
+    "options": {
+      "A": {"text": "Analyze Workflow Bottlenecks: Identify where work is piling up within departments, causing delays, and assess whether the bottleneck is due to resource constraints or inefficient processes.", "nextQuestion": "q1.C.A"},
+      "B": {"text": " Review Skill and Resource Alignment: Assess whether the skills and resources in each department are properly aligned with the tasks, ensuring that departments are neither overburdened nor underutilized based on their strengths and expertise.", "nextQuestion": "q1.C.B"},
+      "C": {"text": "Assess Role Distribution: Analyze employee roles and responsibilities to find where overlapping duties are causing inefficiencies or where tasks are not properly assigned. ", "nextQuestion": "q1.C.C"},
+      "D": {"text": "Compare Task Completion Rates: Use task completion data to see whether some teams are struggling with workload due to resource constraints, inefficiency, or misalignment of tasks.", "nextQuestion": "q1.C.D"}
+    }
+  },
+    {
+      "department": "HR",
+      "question_id": "q1.C.A",
+      "question": " You’ve discovered that one department is significantly slower at completing tasks, and it’s beginning to affect the entire project’s progress. How would you approach resolving this inefficiency without causing disruption to the department’s current operations? ",
+      "options": {
+        "A": {"text": " Temporarily Shift Responsibilities: Shift some of their tasks to a team with lighter workloads to ease the bottleneck while developing a long-term solution", "nextQuestion": "FI"},
+        "B": {"text": "Redesign Workflows: Simplify or optimize the existing workflow by eliminating redundant steps or reordering tasks, allowing the department to move faster without adding more staff.", "nextQuestion": "FI"},
+        "C": {"text": "Establish Clear Milestones: Set smaller, more frequent milestones to help the department stay on track and reduce the risk of large backlogs affecting other teams. ", "nextQuestion": "FI"},
+        "D": {"text": " Implement Real-Time Monitoring: Introduce a monitoring system that tracks task progress in real time, allowing you to intervene and provide support before bottlenecks escalate.", "nextQuestion": "FI"}
+      }
+    },
+    {
+      "department": "HR",
+      "question_id": "q1.C.B",
+      "question": "Your analysis reveals that certain departments have a mismatch between employee skills and the tasks they are assigned, leading to inefficiencies. How would you strategically realign resources to address this issue?",
+      "options": {
+        "A": {"text": "Conduct Skills Assessment Reviews: Implement regular skills assessments to identify gaps or mismatches in employee abilities, helping managers make informed decisions to better allocate their teams.", "nextQuestion": "FI"},
+        "B": {"text": "Implement Upskilling Programs: Introduce training and development programs to help up-skilling needed for their roles, reducing inefficiencies caused by skill gaps.", "nextQuestion": "FI"},
+        "C": {"text": "Develop Cross-Training Initiatives: Crosstrain employees across departments to ensure that underutilized teams can support overburdened teams during peak periods, creating flexibility in resource allocation.", "nextQuestion": "FI"},
+        "D": {"text": " Adjust Job Descriptions: Reevaluate job descriptions and responsibilities to ensure that roles are accurately defined and aligned with the skills required, preventing mismatches in resource allocation.", "nextQuestion": "FI"}
+      }
+    },
+    {
+      "department": "HR",
+      "question_id": "q1.C.C",
+      "question": "You’ve discovered that overlapping roles and poorly assigned tasks are leading to inefficiencies in certain departments. How would you strategically address these issues to optimize role clarity and improve productivity? ",
+      "options": {
+        "A": {"text": " Conduct Role Clarification Workshops: Organize workshops where managers and teams work together to define clear responsibilities, reducing role overlap and assigning tasks properly. ", "nextQuestion": "FI"},
+        "B": {"text": "Standardize Role Definitions: Collaborate with department heads to develop standardized role descriptions across similar functions, ensuring that everyone has a clear understanding of their responsibilities.", "nextQuestion": "FI"},
+        "C": {"text": "Audit Role Effectiveness: Perform an audit to assess whether current roles are contributing effectively to organizational goals, and restructure where necessary to improve efficiency.", "nextQuestion": "FI"},
+        "D": {"text": "Develop Task Management Tools: Implement task management systems that help employees track their responsibilities and reduce confusion over who is accountable for specific tasks. ", "nextQuestion": "FI"}
+      }
+    },
+    {
+      "department": "HR",
+      "question_id": "q1.C.D",
+      "question": " You’ve observed that some teams are consistently falling behind due to resource constraints or inefficiencies. How would you strategically address these workload issues to improve team performance? ",
+      "options": {
+        "A": {"text": "Adjust Staffing Levels: Increase or reallocate staffing to the teams facing the heaviest workloads, ensuring they have the support needed to meet deadlines and stay productive ", "nextQuestion": "FI"},
+        "B": {"text": " Provide Time Management Training: Introduce training programs focused on improving time management and task prioritization, helping teams become more efficient in completing their work.", "nextQuestion": "FI"},
+        "C": {"text": "  Implement Workflow Automation: Identify routine tasks that can be automated, allowing teams to focus on more critical responsibilities and reducing workload bottlenecks.", "nextQuestion": "FI"},
+        "D": {"text": " Introduce Task Sharing Systems: Create systems where teams with lighter workloads can assist overburdened teams, promoting collaboration and balance across departments.", "nextQuestion": "FI"}
+      }
+    },
+    {
+      "department": "HR",
+      "question_id": "q1.D",
+      "question": " You’ve observed that some teams are consistently falling behind due to resource constraints or inefficiencies. How would you strategically address these workload issues to improve team performance? ",
+      "options": {
+        "A": {"text": "Conduct a Privacy Risk Assessment: Start by identifying the areas where employee data might be vulnerable and assess the potential risks of non-compliance or breaches. ", "nextQuestion": "q1.D.A"},
+        "B": {"text": "Review Data Access Controls: Examine who has access to sensitive employee information and ensure that only authorized personnel can view or edit this data.", "nextQuestion": "q1.D.B"},
+        "C": {"text": "Evaluate Current Encryption Practices: Assess the current encryption methods used for storing and transferring employee data to ensure they meet regulatory standards. ", "nextQuestion": "q1.D.C"},
+        "D": {"text": "Audit Third-Party Vendor Compliance: Review whether third-party vendors who handle employee data are compliant with data privacy regulations and have adequate security measures in place", "nextQuestion": "q1.D.D"}
+      }
+    },
+    {
+      "department": "HR",
+      "question_id": "q1.D.A",
+      "question": "Your privacy risk assessment reveals that certain employee data is at risk due to outdated security measures. How would you prioritize addressing these risks while ensuring minimal disruption to HR operations? ",
+      "options": {
+        "A": {"text": "Update Security Protocols in Phases: Roll out updated security measures in phases, starting with the most vulnerable areas of data, to minimize operational disruption.", "nextQuestion": "FI"},
+        "B": {"text": "Restrict Access Immediately: Limit access to sensitive employee data for non-essential personnel right away, reducing immediate risk while developing long-term measures.", "nextQuestion": "FI"},
+        "C": {"text": "Educate Employees on Data Security: Implement mandatory training for employees to ensure that everyone handling sensitive data understands proper security protocols.", "nextQuestion": "FI"},
+        "D": {"text": "Implement Real-Time Data Monitoring: Set up real-time monitoring to flag unusual access to employee data, enabling swift action if a potential breach is detected.", "nextQuestion": "FI"}
+      }
+    },
+    {
+      "department": "HR",
+      "question_id": "q1.D.B",
+      "question": " Upon reviewing data access controls, you discover that too many employees have access to sensitive information, increasing the risk of data breaches. How would you strategically limit access while ensuring operational efficiency?",
+      "options": {
+        "A": {"text": "Implement Role-Based Access Controls (RBAC): Assign access levels based on job roles, ensuring that employees only have access to the data necessary for their specific tasks. ", "nextQuestion": "FI"},
+        "B": {"text": "Conduct Regular Access Audits: Set up periodic audits to review who has access to sensitive data and adjust permissions as employees change roles or departments.", "nextQuestion": "FI"},
+        "C": {"text": " Enforce Multi-Factor Authentication: Introduce additional security measures, like multi-factor authentication, for accessing sensitive employee information", "nextQuestion": "FI"},
+        "D": {"text": "Create Data Access Requests System: Develop a formal request system to access sensitive data, requiring justification and approval before granting temporary access.", "nextQuestion": "FI"}
+      }
+    },
+    {
+      "department": "HR",
+      "question_id": "q1.D.C",
+      "question": "Your evaluation of current encryption practices reveals that the methods being used are outdated and do not meet regulatory standards. How would you implement stronger encryption measures while maintaining data accessibility for authorized users?",
+      "options": {
+        "A": {"text": "Upgrade to Industry-Standard Encryption Protocols: Implement modern encryption standards that meet regulatory requirements, ensuring sensitive data is fully protected during storage and transmission.", "nextQuestion": "FI"},
+        "B": {"text": " Encrypt Data in Layers: Apply layered encryption to different types of employee data, prioritizing the most sensitive information while balancing accessibility for everyday HR tasks.", "nextQuestion": "FI"},
+        "C": {"text": "Introduce Data Encryption Training: Train HR and IT staff on the importance of encryption and how to handle encrypted data effectively, ensuring that security doesn’t hinder operational efficiency.", "nextQuestion": "FI"},
+        "D": {"text": "Set Up Encryption Monitoring Systems: Establish monitoring systems to track the effectiveness of encryption protocols and flag any potential vulnerabilities that arise.", "nextQuestion": "FI"}
+      }
+    },
+    {
+      "department": "HR",
+      "question_id": "q1.D.D",
+      "question": "Your audit reveals that some third-party vendors handling employee data are not fully compliant with privacy regulations. How would you ensure compliance without disrupting the services they provide to your organization?",
+      "options": {
+        "A": {"text": " Establish Compliance Deadlines: Set clear deadlines for vendors to meet regulatory compliance, with follow-up audits to ensure they have implemented the necessary changes.", "nextQuestion": "FI"},
+        "B": {"text": "Limit Data Sharing Until Compliance: Restrict the sharing of sensitive employee data with non-compliant vendors until they demonstrate full compliance with privacy regulations.", "nextQuestion": "FI"},
+        "C": {"text": "  Provide Compliance Support: Offer resources and guidance to help vendors meet compliance standards more quickly, ensuring they understand the requirements and processes.", "nextQuestion": "FI"},
+        "D": {"text": " Consider Vendor Alternatives: If a vendor cannot meet compliance standards within a reasonable timeframe, explore alternative vendors who can ensure better protection of employee data.", "nextQuestion": "FI"}
+      }
+    },
+    {
+      "department": "HR",
+      "question_id": "FI",
+      "question": "What are the responsibilities that you want to find in your dream job?",
+      "options": {
+        "A": {"text": "", "nextQuestion": "NULL"},
+        "B": {"text": "", "nextQuestion": "NULL"},
+        "C": {"text": " ", "nextQuestion": "NULL"},
+        "D": {"text": "", "nextQuestion": "NULL"}
+      }
+    },
+    {
+      "department": "Operations Department",
+      "question_id": "q1",
+      "question": " In Operations, optimizing processes and ensuring smooth production are key to business success. When managing resources, controlling costs, and maintaining quality, which area do you enjoy working on the most to drive operational success?",
+      "options": {
+        "A": {"text": " Cost Optimization: Identify and cut unnecessary costs in production (e.g., excess material use, labor inefficiencies) to boost efficiency without sacrificing quality.", "nextQuestion": "FI"},
+        "B": {"text": " Demand Forecasting: Use past sales and market trends to predict demand, ensuring you produce the right amount without overstocking or shortages.", "nextQuestion": "FI"},
+        "C": {"text": "Quality Control: Implement checks at every production stage to catch defects early, ensuring consistent quality and reducing customer complaints.", "nextQuestion": "FI"},
+        "D": {"text": "Feature Prioritization: Focus on features that are easy to produce and integrate seamlessly, minimizing disruptions and ensuring smooth operations.", "nextQuestion": "FI"}
+      }
+    },
+    {
+      "department": "Operations Department",
+      "question_id": "q1.A",
+      "question": " You are in a situation where the overall production costs are higher than expected, but the exact sources of inefficiencies haven’t been identified yet. You need to determine the root cause for this. How would you approach identifying the root cause of the cost increase?",
+      "options": {
+        "A": {"text": " Break Down Costs by Department: Start by analyzing the cost structure of each department (e.g., production, logistics, staffing) to pinpoint where the biggest cost increases are occurring.", "nextQuestion": "q1.A.A"},
+        "B": {"text": "Analyze Historical Data: Compare current costs with past trends to identify any unusual spikes or increases in spending that may indicate inefficiencies.", "nextQuestion": "q1.A.B"},
+        "C": {"text": "Review Resource Usage: Examine how materials, labor, and equipment are being used to identify any waste or underutilization that could be driving up costs.", "nextQuestion": "q1.A.C"},
+        "D": {"text": " Investigate External Factors: Consider external factors like supplier price increases or changing market conditions that could be influencing your overall cost structure.", "nextQuestion": "q1.A.D"}
+      }
+    },
+    {
+      "department": "Operations Department",
+      "question_id": "q1.A.A",
+      "question": "After breaking down cost by department, you identified that logistics and staffing have the highest cost increases. How would you optimize these areas without impacting performance? ",
+      "options": {
+        "A": {"text": "Improve Logistics Efficiency: Optimize delivery routes, reduce fuel use, and negotiate better shipping deals to lower costs.", "nextQuestion": "FI"},
+        "B": {"text": "Automate Staffing Tasks: Implement automation for repetitive tasks to cut labor costs while keeping employees focused on high-value work.", "nextQuestion": "FI"},
+        "C": {"text": " Cross-Train Employees: Train employees to handle multiple tasks, reducing the need for overtime or extra hires.", "nextQuestion": "FI"},
+        "D": {"text": " Outsource Non-Core Functions: Outsource non-essential logistics and staffing tasks to lower costs while keeping key operations in-house.", "nextQuestion": "FI"}
+      }
+    },
+    {
+      "department": "Operations Department",
+      "question_id": "q1.A.B",
+      "question": "After comparing past trends, you’ve identified unusual spikes in material and utility costs over the last quarter. What’s your next step to address these rising costs?",
+      "options": {
+        "A": {"text": "Renegotiate Supplier Contracts: Approach suppliers to secure better pricing or explore alternative vendors for cost savings.", "nextQuestion": "FI"},
+        "B": {"text": "Implement Energy-Saving Measures: Introduce energy-saving practices in production to lower utility costs and improve sustainability.", "nextQuestion": "FI"},
+        "C": {"text": "Adjust Inventory Practices: Optimize your inventory management to avoid over-purchasing materials that inflate costs.", "nextQuestion": "FI"},
+        "D": {"text": "Monitor Fluctuations Regularly: Set up regular reviews to catch cost spikes early and adjust spending proactively.", "nextQuestion": "FI"}
+      }
+    },
+    {
+      "department": "Operations Department",
+      "question_id": "q1.A.C",
+      "question": " After reviewing how materials, labor, and equipment are used, you’ve identified that some resources are underutilized while others are overused. How would you address this imbalance to reduce waste and optimize efficiency? ",
+      "options": {
+        "A": {"text": "Reallocate Resources: Shift underused equipment and labor to areas where they are needed most to maximize output. ", "nextQuestion": "FI"},
+        "B": {"text": "Implement Usage Monitoring: Use tracking systems to monitor resource usage in real-time and adjust based on demand.", "nextQuestion": "FI"},
+        "C": {"text": " Reduce Material Waste: Introduce process changes or recycling initiatives to reduce material waste and cut costs", "nextQuestion": "FI"},
+        "D": {"text": "Schedule Preventive Maintenance: Ensure equipment is regularly maintained to avoid costly breakdowns and improve efficiency.", "nextQuestion": "FI"}
+      }
+    },
+
+    {
+      "department": "Operations Department",
+      "question_id": "q1.A.D",
+      "question": "After investigating external factors, you’ve discovered rising supplier prices and market fluctuations affecting your cost structure. What’s your next step to minimize the impact of these external pressures?",
+      "options": {
+        "A": {"text": " Lock in Long-Term Contracts: Negotiate long-term agreements with suppliers to secure stable pricing and protect against future cost increases.", "nextQuestion": "FI"},
+        "B": {"text": "Diversify Supplier Base: Source alternative suppliers to reduce dependency on one vendor and increase bargaining power.", "nextQuestion": "FI"},
+        "C": {"text": " Adjust Pricing Models: Consider adjusting your pricing strategy in response to market changes, ensuring you maintain margins. ", "nextQuestion": "FI"},
+        "D": {"text": "Monitor Market Trends: Set up ongoing monitoring of market conditions to anticipate future price changes and adjust accordingly.", "nextQuestion": "FI"}
+        }
+      },
+      {
+      "department": "Operations Department",
+      "question_id": "q1.B",
+      "question": "You’ve noticed that your current demand forecasting system sometimes leads to overproduction or stock shortages. How would you start improving the accuracy of your demand predictions?",
+      "options": {
+        "A": {"text": " Analyze Historical Sales Data: Review past sales trends and patterns to identify any inconsistencies that may be affecting forecast accuracy.", "nextQuestion": "q1.B.A"},
+        "B": {"text": "Segment by Product Type: Break down the forecast by product categories to ensure that high-demand items are prioritized and produced in the right quantities.", "nextQuestion": "q1.B.B"},
+        "C": {"text": "Incorporate Market Trends: Include current market conditions, such as seasonal shifts or economic factors, to better align production with actual demand. ", "nextQuestion": "q1.B.C"},
+        "D": {"text": " Review Supplier Lead Times: Ensure your forecast accounts for supplier delivery times to avoid bottlenecks and ensure timely production.", "nextQuestion": "q1.B.D"}
+      }
+    },
+    {
+      "department": "Operations Department",
+      "question_id": "q1.B.A",
+      "question": " After analyzing historical sales data, you’ve identified inconsistencies between different sales channels and regions. How would you address these inconsistencies to improve forecast accuracy across the board?",
+      "options": {
+        "A": {"text": "Adjust Forecasts by Region: Tailor your forecasts to account for regional differences, ensuring that each location has a more accurate production plan.", "nextQuestion": "q1.A.A"},
+        "B": {"text": " Focus on High-Volume Channels: Prioritize forecasting for sales channels with the highest volume, ensuring that key areas are properly stocked.", "nextQuestion": "q1.A.B"},
+        "C": {"text": "Investigate Anomalies: Dig deeper into outlier data to understand why certain regions or channels are showing unexpected trends and adjust your forecasts accordingly.", "nextQuestion": "q1.A.C"},
+        "D": {"text": "Implement a Rolling Forecast: Use rolling forecasts that update regularly based on the latest data to minimize inconsistencies and improve accuracy over time. ", "nextQuestion": "q1.A.D"}
+      }
+    },
+    {
+      "department": "Operations Department",
+      "question_id": "q1.B.B",
+      "question": "After segmenting your forecast by product type, you’ve discovered that demand for certain high-priority products fluctuates significantly. How would you ensure that production aligns with these fluctuations while keeping operations efficient?",
+      "options": {
+        "A": {"text": "Build Flexibility into Production: Adjust production schedules to be more flexible, allowing for quick changes based on fluctuations in product demand.", "nextQuestion": "FI"},
+        "B": {"text": "Prioritize High-Demand Products: Allocate more resources to high-demand products, ensuring their availability even when demand surges.", "nextQuestion": "FI"},
+        "C": {"text": "Create Buffer Stock: For highly fluctuating products, maintain a buffer stock to meet unexpected spikes without overburdening production.", "nextQuestion": "FI"},
+        "D": {"text": "Monitor Sales in Real-Time: Implement real-time sales tracking to adjust forecasts and production dynamically as demand shifts.", "nextQuestion": "FI"}
+      }
+    },
+    {
+      "department": "Operations Department",
+      "question_id": "q1.B.C",
+      "question": " After incorporating market trends like seasonal shifts and economic factors into your forecasts, you’ve noticed that demand for certain products is heavily influenced by external factors. How would you adjust production to account for these market-driven fluctuations?",
+      "options": {
+        "A": {"text": "Scale Production Seasonally: Adjust production levels based on expected seasonal demand, ensuring you’re prepared for peaks and dips in sales.", "nextQuestion": "FI"},
+        "B": {"text": " Focus on Economic Indicators: Monitor key economic indicators to anticipate changes in demand and align production with broader market conditions.", "nextQuestion": "FI"},
+        "C": {"text": "Offer Promotions During Low Demand: Implement targeted promotions during periods of low demand to maintain steady sales and avoid excess inventory.", "nextQuestion": "FI"},
+        "D": {"text": "Collaborate with Suppliers: Work closely with suppliers to ensure they can meet your changing needs as market trends affect production demands.", "nextQuestion": "FI"}
+        }
+    },
+    {
+      "department": "Operations Department",
+      "question_id": "q1.B.D",
+      "question": "After reviewing supplier lead times, you’ve identified delays that could impact your production schedule. How would you ensure timely production while managing these delays?",
+      "options": {
+        "A": {"text": " Build in Buffer Time: Adjust your production schedule to include buffer time for potential delays, ensuring that operations aren’t disrupted. ", "nextQuestion": "FI"},
+        "B": {"text": "Diversify Suppliers: Work with multiple suppliers to reduce dependency on any one vendor and minimize the risk of delays.", "nextQuestion": "FI"},
+        "C": {"text": "Order in Advance: Place orders earlier to account for longer lead times, ensuring materials arrive well ahead of production deadlines.", "nextQuestion": "FI"},
+        "D": {"text": "Negotiate Faster Delivery: Collaborate with suppliers to negotiate shorter lead times or expedited shipping options to keep production on track.", "nextQuestion": "FI"}
+      }
+    },
+    {
+      "department": "Operations Department",
+      "question_id": "q1.C",
+      "question": " After reviewing the inspection data, you’ve identified that most defects occur during a specific production stage. How would you use these insights to reduce defects and improve overall quality?",
+      "options": {
+        "A": {"text": "Identify Patterns in Defect Timing: Use inspection data to spot recurring patterns in defect occurrence, allowing you to target specific times or shifts when defects are most likely to happen", "nextQuestion": "q1.C.A"},
+        "B": {"text": "Correlate Defects with Specific Inputs: Analyze which materials or suppliers are linked to the highest defect rates, ensuring you focus on improving quality at the source.", "nextQuestion": "q1.C.B"},
+        "C": {"text": " Predict Future Defects: Use past defect data to anticipate when and where defects are likely to occur, enabling you to take proactive measures before they arise.", "nextQuestion": "q1.C.C"},
+        "D": {"text": "Set Quality Benchmarks: Establish data-driven quality benchmarks for each production stage based on historical performance, ensuring every stage meets high standards.", "nextQuestion": "q1.C.D"}
+      }
+    },
+    {
+      "department": "Operations Department",
+      "question_id": "q1.C.A",
+      "question": "  You’ve identified that defects are more frequent during certain shifts and at specific times of the day. How would you use this insight to improve production quality and reduce these defects?",
+      "options": {
+        "A": {"text": "Adjust Staffing Levels: Increase staffing during defect-prone shifts to ensure that enough attention and resources are available to catch issues early.", "nextQuestion": "FI"},
+        "B": {"text": "Schedule Preventive Maintenance: Schedule routine equipment maintenance during times when defects are most common to prevent machinery issues from causing defects.", "nextQuestion": "FI"},
+        "C": {"text": "Implement Targeted Training: Provide additional training to employees working the defect-prone shifts to ensure they’re following best practices and quality standards.", "nextQuestion": "FI"},
+        "D": {"text": "Rotate Task Assignments: Rotate employee roles during high-defect periods to ensure that workers stay focused and engaged, reducing the likelihood of errors.", "nextQuestion": "FI"}
+      }
+    },
+    {
+      "department": "Operations Department",
+      "question_id": "q1.C.B",
+      "question": " After analyzing the data, you’ve found that certain materials or suppliers are consistently linked to higher defect rates. How would you address this issue to improve overall product quality?",
+      "options": {
+        "A": {"text": "Collaborate with Suppliers: Work with suppliers to improve the quality of materials, ensuring they meet your production standards and reduce defects.", "nextQuestion": "FI"},
+        "B": {"text": " Switch Suppliers: Explore alternative suppliers who can provide higher-quality materials to eliminate the issue at the source.", "nextQuestion": "FI"},
+        "C": {"text": "Adjust Quality Checks: Increase quality checks on materials from the identified sources to catch defects early before they affect production.", "nextQuestion": "FI"},
+        "D": {"text": "Implement Supplier Performance Metrics: Set performance standards and metrics for suppliers, ensuring their deliveries consistently meet your quality requirements.", "nextQuestion": "FI"}
+      }
+    },
+    {
+      "department": "Operations Department",
+      "question_id": "q1.C.C",
+      "question": " Using past defect data, you’ve developed insights into when and where defects are most likely to occur. How would you apply this knowledge to proactively reduce defects in future production cycles?",
+      "options": {
+        "A": {"text": " Preemptive Quality Checks: Increase quality checks in the areas predicted to experience defects, allowing you to catch and address issues before they escalate.", "nextQuestion": "FI"},
+        "B": {"text": " Adjust Production Schedules: Modify production schedules to account for high-risk times, ensuring that processes are slowed down or given extra attention during these periods.", "nextQuestion": "FI"},
+        "C": {"text": "Allocate Resources: Assign additional staff or better equipment during defect-prone times to mitigate the risks of defects before they occur.", "nextQuestion": "FI"},
+        "D": {"text": "Refine Processes: Use defect predictions to optimize production processes, ensuring potential issues are addressed at their source before they become major problems.", "nextQuestion": "FI"}
+      }
+    },
+    {
+      "department": "Operations Department",
+      "question_id": "q1.C.D",
+      "question": " You’ve set data-driven quality benchmarks for each production stage based on historical performance. How would you ensure these benchmarks are consistently met across all teams and processes? ",
+      "options": {
+        "A": {"text": "Monitor Performance Regularly: Use real-time monitoring to ensure that all teams are meeting quality benchmarks, allowing for quick adjustments if standards slip.", "nextQuestion": "FI"},
+        "B": {"text": " Provide Continuous Feedback: Implement a feedback loop where teams receive regular updates on their performance, encouraging them to meet or exceed quality expectations.", "nextQuestion": "FI"},
+        "C": {"text": "Align Incentives with Quality Goals: Create incentive programs that reward teams for consistently meeting or exceeding quality benchmarks, ensuring focus on high standards.", "nextQuestion": "FI"},
+        "D": {"text": "Standardize Processes: Ensure that standardized processes are followed across all teams to minimize deviations from quality benchmarks and maintain consistency.", "nextQuestion": "FI"}
+      }
+    },{
+      "department": "Operations Department",
+      "question_id": "q1.D",
+      "question": "  Your operations team is tasked with prioritizing features for production. Some features are more complex to produce than others, and you need to decide which ones to prioritize without disrupting the workflow. How would you approach identifying the features that best align with operational efficiency?",
+      "options": {
+        "A": {"text": " Assess Production Complexity: Evaluate each feature’s complexity in terms of resources, time, and labor required, and prioritize features that can be produced with minimal disruption.", "nextQuestion": "q1.D.A"},
+        "B": {"text": " Evaluate Impact on Supply Chain: Review how each feature impacts your supply chain, prioritizing features that can be produced without causing delays or material shortages.", "nextQuestion": "q1.D.B"},
+        "C": {"text": " Analyze Resource Availability: Look at current resource availability (e.g., labor, machinery, materials) and prioritize features that align with existing capacity. ", "nextQuestion": "q1.D.C"},
+        "D": {"text": "Consider Integration: Focus on features that integrate smoothly into current production workflows, avoiding those that would require major operational changes.", "nextQuestion": "q1.D.D"}
+      }
+    },
+    {
+      "department": "Operations Department",
+      "question_id": "q1.D.A",
+      "question": " After assessing the complexity of producing various features, you’ve identified that some are more resource-intensive than others, but they’re still essential. How would you decide which features to prioritize while managing resource limitations and ensuring efficiency?",
+      "options": {
+        "A": {"text": "Features with Quick Turnaround: Prioritize features that can be produced quickly to ensure steady workflow without tying up resources for too long.", "nextQuestion": "FI"},
+        "B": {"text": " Balance Complexity: Distribute production between high-complexity and low-complexity features to ensure resources aren’t overburdened while maintaining progress on all fronts.", "nextQuestion": "FI"},
+        "C": {"text": " Allocate Resources: For the most essential complex features, allocate additional resources to speed up production without compromising other areas.", "nextQuestion": "FI"},
+        "D": {"text": "Delay Non-Essential Features: Postpone the production of less critical features until more resources become available, focusing on those that align best with current capacity", "nextQuestion": "FI"}
+      }
+    },
+       
+
+    {
+      "department": "Operations Department",
+      "question_id": "q1.D.B",
+      "question": " After evaluating how different features impact your supply chain, you’ve identified potential material shortages and delivery delays for certain features. How would you prioritize production while ensuring a steady supply of materials?",
+      "options": {
+        "A": {"text": " Prioritize Stable Features: Focus on features with secure, reliable material delivery to prevent production delays.", "nextQuestion": "FI"},
+        "B": {"text": " Build Material Buffers: Maintain buffer stock for features that rely on materials with supply risks, ensuring consistent production.", "nextQuestion": "FI"},
+        "C": {"text": " Align Production with Deliveries: Adjust production timelines to match material delivery schedules, minimizing downtime. ", "nextQuestion": "FI"},
+        "D": {"text": " Diversify Suppliers: Seek alternative suppliers for critical materials to avoid disruptions and ensure steady supply.", "nextQuestion": "FI"}
+      }
+    },
+    {
+      "department": "Operations Department",
+      "question_id": "q1.D.C",
+      "question": "  After assessing the availability of labor, machinery, and materials, you’ve identified resource constraints that could impact the production of certain features. How would you prioritize features while working within these limitations?",
+      "options": {
+        "A": {"text": "Prioritize Low-Resource Features: Focus on features that can be produced with minimal resource demands, ensuring steady production without overburdening capacity.", "nextQuestion": "FI"},
+        "B": {"text": "Redistribute Resources: Allocate resources more efficiently by shifting available labor and machinery to features that align with current capacity.", "nextQuestion": "FI"},
+        "C": {"text": " Scale Down Production: Temporarily reduce production volumes on certain features to prevent bottlenecks while ensuring essential features are delivered on time", "nextQuestion": "FI"},
+        "D": {"text": "Delay: Postpone non-critical features until additional resources become available, focusing on features that best utilize existing resources.", "nextQuestion": "FI"}
+      }
+    },
+    {
+      "department": "Operations Department",
+      "question_id": "q1.D.D",
+      "question": "  You’ve identified features that would require significant operational changes to produce, while others fit seamlessly into existing workflows. How would you prioritize features to ensure smooth integration without disrupting ongoing operations?",
+      "options": {
+        "A": {"text": "Focus on Seamless Features: Prioritize features that require no major operational changes, ensuring continuous, efficient production.", "nextQuestion": "FI"},
+        "B": {"text": " Implement Gradual Changes: Slowly integrate features requiring operational adjustments, allowing time to adapt without major disruptions.", "nextQuestion": "FI"},
+        "C": {"text": "Adjust Workflows: Modify workflows only for features that offer substantial benefits, ensuring the reward outweighs the operational change. ", "nextQuestion": "FI"},
+        "D": {"text": "Postpone Complex Features: Delay features requiring significant changes until operations are stable, focusing on features that fit current workflows.", "nextQuestion": "FI"}
+      }
+    },
+    {
+      "department": "Operations Department",
+      "question_id": "FI",
+      "question": "What are the responsibilities that you want to find in your dream job? ",
+      "options": {
+        "A": {"text": "", "nextQuestion": "NULL"},
+        "B": {"text": "", "nextQuestion": "NULL"},
+        "C": {"text": " ", "nextQuestion": "NULL"},
+        "D": {"text": "", "nextQuestion": "NULL"}
+      }
+    }
   ]
 }
